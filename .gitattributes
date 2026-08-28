@@ -1,5 +1,11 @@
 * text=auto eol=lf
 
+# Frozen evidence and reconstructed paper outputs are hashed byte-for-byte.
+# Preserve their packaged line endings on every platform.
+artifacts/** -text whitespace=cr-at-eol
+manifests/** -text whitespace=cr-at-eol
+paper/figure_data/** -text whitespace=cr-at-eol
+
 *.pdf binary
 *.png binary
 *.jpg binary

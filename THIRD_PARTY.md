@@ -9,6 +9,7 @@
 | Mido | <https://github.com/mido/mido> | MIT | dependency only |
 | PyTorch | <https://pytorch.org/> | BSD-style | dependency only |
 | Hugging Face tokenizers | <https://github.com/huggingface/tokenizers> | Apache-2.0 | dependency only |
+| Public CV layout | <https://github.com/adongwanai/LLM-Resume-Template> | CC BY 4.0 | adapted layout in `profile/YiWang_Public_Research_CV.pdf` |
 
 The code in `src/el_tokenization/` is released under Apache-2.0 unless a file
 says otherwise.  Documentation, configs, manifests, numerical results, and

@@ -19,3 +19,10 @@
 - Selected model weights and optional resume states.
 
 Their hashes or publication status are indexed where available.
+
+## Public-facing companion
+
+- `profile/YiWang_Public_Research_CV.pdf` is Yi Wang's public research CV.  It
+  is an author-profile document, not paper evidence or a reproduction input.
+- A generated-music demo is intentionally deferred and no placeholder or
+  historical Pop-K sample is presented as a current-model result.

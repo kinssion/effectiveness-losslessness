@@ -8,5 +8,7 @@ Mixed-content notice:
 - Raw Pop1K7 and ComMU data: not redistributed; upstream terms control.
 - Model checkpoints: not included; separate license review required.
 - Generated MIDI and private media: not included.
+- Public research CV: author-profile material, not scientific evidence; the
+  adapted template attribution is embedded in the PDF.
 
 Consult `THIRD_PARTY.md` and `DATA.md` before redistributing any derived payload.

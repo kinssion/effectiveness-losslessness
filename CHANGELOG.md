@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0-rc2 — 2026-08-29
+
+- Added Yi Wang's public research CV as a clearly separated author-profile
+  companion rather than scientific evidence.
+- Added a concise research trajectory and public researcher links to the
+  repository landing page.
+- Kept the demo and model weights out of this release pending generation,
+  rights review, and separate publication.
+- Preserved byte-frozen evidence and reconstructed paper outputs against line-
+  ending conversion so release hashes survive fresh clones and Git archives.
+- Refreshed the release inventory, version metadata, manifest, and checksums.
+
 ## 1.0.0-rc1 — 2026-08-28
 
 - Created a clean paper-specific reproducibility package rather than exporting

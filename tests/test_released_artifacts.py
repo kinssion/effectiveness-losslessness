@@ -140,6 +140,7 @@ def test_no_raw_midi_or_model_weights_in_repository() -> None:
         "configs",
         "manifests",
         "paper",
+        "profile",
         "scripts",
         "src",
         "tests",
@@ -172,3 +173,17 @@ def test_release_identity_and_paper_link() -> None:
     assert paper["repository_url"] == "https://github.com/kinssion/effectiveness-losslessness"
     assert paper["reference_pdf_vendored"] is False
     assert not list((ROOT / "paper").glob("*.pdf"))
+    cv = ROOT / "profile/YiWang_Public_Research_CV.pdf"
+    assert cv.read_bytes().startswith(b"%PDF-")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "profile/YiWang_Public_Research_CV.pdf" in readme
+
+
+def test_release_checksums_match_checkout() -> None:
+    failures: list[str] = []
+    for line in (ROOT / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
+        expected, relative = line.split("  ", maxsplit=1)
+        path = ROOT / relative
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            failures.append(relative)
+    assert failures == []

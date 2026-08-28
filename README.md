@@ -9,11 +9,29 @@ predictive code length without confusing coordinate gain, relational excess,
 and carrier gain.
 
 - **Paper:** [arXiv:2608.18025](https://arxiv.org/abs/2608.18025)
-- **Repository:** [github.com/kinssion/effectiveness-losslessness](https://github.com/kinssion/effectiveness-losslessness)
+- **Reproduce:** [REPRODUCING.md](REPRODUCING.md)
+- **Public research CV:** [YiWang_Public_Research_CV.pdf](profile/YiWang_Public_Research_CV.pdf)
+- **Researcher:** [ORCID](https://orcid.org/0009-0004-6057-8151) · [GitHub @kinssion](https://github.com/kinssion)
 
 **Version status:** this repository tracks the `m4l_iclr2027_compact_v3`
 content freeze. Until the arXiv replacement is visible, the stable arXiv record
 may still display the earlier title and manuscript version.
+
+## Research trajectory
+
+This project is the representation stage of a broader research trajectory:
+
+> **Representation → Predictive State → Recursive Memory → Revisable Intelligence**
+
+- **Representation:** What reusable structure should be explicit in a
+  representation, and what should remain for a model to infer from context?
+- **Predictive State and Recursive Memory:** What information must an
+  intelligent system preserve for future prediction and recursive updating?
+- **Revisable Intelligence:** What state remains useful when questions,
+  evidence, actions, and mechanisms change?
+
+The first stage is documented by this repository and arXiv:2608.18025.  The
+latter two stages are ongoing manuscripts.
 
 ## Frozen results
 
@@ -79,3 +97,11 @@ development must call it a public benchmark split or create a new holdout.
 
 Licensing and upstream restrictions are documented in `DATA.md`,
 `THIRD_PARTY.md`, `NOTICE`, and `MODEL_CARD.md`.
+
+## About the author
+
+**Yi Wang / Kinssion** is an M.S. student in Electronic Engineering at
+Tsinghua University working on representation learning, predictive state, and
+intelligent systems.  He is open to AI research and model/algorithm
+opportunities.  Contact details and the broader research profile are available
+in the [public research CV](profile/YiWang_Public_Research_CV.pdf).
