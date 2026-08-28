@@ -39,7 +39,7 @@ def main() -> None:
     if args.prepared_root is None or not args.prepared_root.is_dir():
         raise ValueError("a verified --prepared-root is required for paper training")
     raise RuntimeError(
-        "the clean-room full-training adapter is not certified in this release candidate; "
+        "the clean-room full-training adapter is not certified in this public release; "
         "paper-compatible low-level modules and frozen protocols are included, but this command fails closed"
     )
 

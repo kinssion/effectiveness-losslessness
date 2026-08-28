@@ -13,9 +13,9 @@ and carrier gain.
 - **Public research CV:** [YiWang_Public_Research_CV.pdf](profile/YiWang_Public_Research_CV.pdf)
 - **Researcher:** [ORCID](https://orcid.org/0009-0004-6057-8151) · [GitHub @kinssion](https://github.com/kinssion)
 
-**Version status:** this repository tracks the `m4l_iclr2027_compact_v3`
-content freeze. Until the arXiv replacement is visible, the stable arXiv record
-may still display the earlier title and manuscript version.
+**Version status:** v1.0.0 tracks the `m4l_iclr2027_compact_v3` content freeze
+submitted as an arXiv replacement. Until that replacement is visible, the
+stable arXiv record may still display the earlier title and manuscript version.
 
 ## Research trajectory
 

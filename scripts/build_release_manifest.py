@@ -45,8 +45,8 @@ def main() -> None:
     ).encode("utf-8")
     manifest = {
         "schema_version": "el.release.v1",
-        "release": "effectiveness-losslessness-1.0.0-rc2",
-        "release_stage": "private_pre_public",
+        "release": "effectiveness-losslessness-1.0.0",
+        "release_stage": "public_release",
         "paper": "arXiv:2608.18025",
         "repository": "https://github.com/kinssion/effectiveness-losslessness",
         "author": "Yi Wang",

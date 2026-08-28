@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0 — 2026-08-29
+
+- Promoted the fully verified release candidate to the first public release.
+- Retained the public research CV, research trajectory, frozen protocols,
+  result artifacts, receipts, and end-to-end paper reconstruction workflow.
+- Deferred the generated-music demo rather than presenting a historical Pop-K
+  checkpoint as a current-model result.
+- Recorded that the compact-v3 manuscript was submitted as an arXiv
+  replacement and that the public arXiv record may update later.
+- Finalized version metadata, the release manifest, and SHA-256 checksums.
+
 ## 1.0.0-rc2 — 2026-08-29
 
 - Added Yi Wang's public research CV as a clearly separated author-profile

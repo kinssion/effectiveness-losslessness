@@ -653,14 +653,14 @@
       "sha256": "e9230db82aee4617acacd2702dce6e87fa8de202068e121fe0e2b19d36a4b78c"
     },
     {
-      "bytes": 1396,
+      "bytes": 1975,
       "path": "CHANGELOG.md",
-      "sha256": "ed6e1c73a746a29cf1bd7233e6cc6cb49048e0cea51b667ea68bbf93032732cd"
+      "sha256": "ecb1742369c63137433e23cd873c240db581a4dbf588c61466e7709faa30221e"
     },
     {
-      "bytes": 621,
+      "bytes": 617,
       "path": "CITATION.cff",
-      "sha256": "c3ff0efb1005e81796c480e4bd198106648c86735cd4dab995658d7fdf1437a4"
+      "sha256": "2489974f2cb88920af5cbae346ff2f2776411d89908571ac1f689e49ad15f47a"
     },
     {
       "bytes": 165,
@@ -1073,14 +1073,14 @@
       "sha256": "f900a2cc2028e6188c8ac82ecddccb8a6eaeaaba38cf034536bf5ba71cd53efa"
     },
     {
-      "bytes": 1378,
+      "bytes": 1375,
       "path": "pyproject.toml",
-      "sha256": "162a59865bfc91220280f0c9db88a27ec07acf451794b793a3adf37ab1b9de61"
+      "sha256": "2fd068e4ed38ece82e95b169133ed783e85782b2b7fec40a24161de0ad6dcc89"
     },
     {
-      "bytes": 4682,
+      "bytes": 4702,
       "path": "README.md",
-      "sha256": "ca251e2d7727c0f2b3f3b919f570b8bf47f4858d27a2c595d54c963b88b9f4d4"
+      "sha256": "58ed73eb448c04128fb0801fac967bbec3bcb12bb3b88f099b6dcd3ffd102b3a"
     },
     {
       "bytes": 1223,
@@ -1108,9 +1108,9 @@
       "sha256": "8b556e42fa8f66323d8db6fd4f297a99675b2152119d16b7e42b6b67d3f43824"
     },
     {
-      "bytes": 2908,
+      "bytes": 2900,
       "path": "scripts/build_release_manifest.py",
-      "sha256": "49404247ccdad935899f240a51b370c0ffabf8111e64a40fc5df948ad7d6a220"
+      "sha256": "1e224c86934c191a6a0554827dc8d2ca7db2c3bc1a681a47ed9f1f32522a723a"
     },
     {
       "bytes": 6263,
@@ -1163,9 +1163,9 @@
       "sha256": "00e425ef3d03ca317964fe4096220c880832bc6fbdb33c90de4c2e4178983616"
     },
     {
-      "bytes": 1684,
+      "bytes": 1681,
       "path": "scripts/train_arm.py",
-      "sha256": "3d9ab26508e178132da15cc871cda366362aac2b2838cd8a596e10f05bfc18ec"
+      "sha256": "29c5fff2f7cf86b191131e5e8147bb939fe4a94e7bee321a9cb82387ab36b8d7"
     },
     {
       "bytes": 191,
@@ -1173,9 +1173,9 @@
       "sha256": "c6729ae3b47b7bcfd266d90b720739dab3bd78fd7e2dcd978e12a23374c34c26"
     },
     {
-      "bytes": 286,
+      "bytes": 283,
       "path": "src/el_tokenization/__init__.py",
-      "sha256": "bbf260bf3c3cc1675a84bdb853b79dc444cbd08fbb9c478b70e66dda1bf7b3d5"
+      "sha256": "b9d02a6b61c34be386cef4839ba1e8fb49e19be3541ce631bcc62adc92d131e4"
     },
     {
       "bytes": 61,
@@ -1563,9 +1563,9 @@
       "sha256": "0642c1e9ffd39b0a16bc035735e987ecdd02fe618c8c1c22034809f5925e8088"
     },
     {
-      "bytes": 176215,
+      "bytes": 176212,
       "path": "uv.lock",
-      "sha256": "b26cc9accc86817d4298a7faeefe9865aca8e37df7676fdceadbe6c2a5a1bd6e"
+      "sha256": "bb14a52d739272d14578cb55bf514bb8d8d84088c0c54ae2051b4f64ac8abb4f"
     },
     {
       "bytes": 563,
@@ -1586,10 +1586,10 @@
   "orcid": "0009-0004-6057-8151",
   "paper": "arXiv:2608.18025",
   "raw_midi_included": false,
-  "release": "effectiveness-losslessness-1.0.0-rc2",
-  "release_stage": "private_pre_public",
-  "release_tree_sha256": "a6283094cbb191604b1bf4f6469d5d6f7e1abdd278e84313b45e79c7e04c0788",
+  "release": "effectiveness-losslessness-1.0.0",
+  "release_stage": "public_release",
+  "release_tree_sha256": "b5357853cdb74003eba65b1acb3ee2d5d649d3d977385617961d8f7844eb973f",
   "repository": "https://github.com/kinssion/effectiveness-losslessness",
   "schema_version": "el.release.v1",
-  "total_bytes": 100938487
+  "total_bytes": 100939062
 }
