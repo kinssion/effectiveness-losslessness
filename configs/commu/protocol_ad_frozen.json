@@ -1,0 +1,113 @@
+{
+  "schema_version": "m4l.commu_ad_replication.formal_protocol.v1",
+  "status": "FROZEN_BEFORE_FORMAL_VALIDATION",
+  "scientific_scope": {
+    "purpose": "independent-corpus replication of the decisive A-to-D temporal-geometry result",
+    "arms": [
+      "ARM_A_RAW_SEQUENCE",
+      "ARM_D_RELATIONAL_TIME_GEOMETRY"
+    ],
+    "primary_paired_comparison": "D-A",
+    "primary_metric": "micro_total_validation_bits_per_exact_musical_event",
+    "paper_update_authorized": false
+  },
+  "preregistered_seeds": [20260814, 20260815, 20260816],
+  "data": {
+    "dataset": "commu_4_4_clean_v1",
+    "manifest_path": "data/manifests/commu_4_4_clean_v1/split_manifest.json",
+    "manifest_sha256": "f4dc150e3a81f7224f07a69832d9c3e021ef11414beacb0dbb9f1ee4a39ecfdf",
+    "tensor_cache_path": "artifacts/commu_ad_replication/tensor_cache_v1",
+    "train_manifest_rows": 8652,
+    "validation_manifest_rows": 323,
+    "sealed_test_manifest_rows": 324,
+    "train_target_events_per_equivalent_epoch": 450765,
+    "validation_target_events": 8247,
+    "sealed_test_target_events": 8247,
+    "meter": "4/4 only",
+    "tonal_frame": "official C major / A minor; no additional transposition",
+    "test_rows_must_remain_unloaded": true
+  },
+  "representation": {
+    "arm_configs": {
+      "ARM_A_RAW_SEQUENCE": "configs/iclr_ablation/arm_a_raw_sequence.yaml",
+      "ARM_D_RELATIONAL_TIME_GEOMETRY": "configs/iclr_ablation/arm_d_relational_time.yaml"
+    },
+    "shared_target_order": ["type", "time", "pitch", "duration"],
+    "canonical_note_order": "onset_ascending_then_pitch_ascending",
+    "minimum_semantic_rest_ticks": 96
+  },
+  "model": {
+    "layers": 16,
+    "width": 64,
+    "heads": 4,
+    "feedforward_width": 128,
+    "dropout": 0.0,
+    "maximum_sequence_tokens": 2048,
+    "decoder": "shared_Type_Time_Pitch_Duration"
+  },
+  "context_policy": {
+    "maximum_context_bars": 32,
+    "unit": "complete_ComMU_clip",
+    "random_note_crop": false,
+    "random_bar_crop": false,
+    "future_information": false,
+    "overlength_policy": "hard_fail"
+  },
+  "batch_construction": {
+    "batch_songs": 128,
+    "validation_batch_songs": 128,
+    "drop_last": false,
+    "sampling": "every_train_row_exactly_once_per_equivalent_epoch",
+    "replacement": false,
+    "length_bucket_window_rows": 1024,
+    "paired_arms_share_identical_batch_indices": true
+  },
+  "training": {
+    "target_equivalent_epochs": 5,
+    "target_event_budget": 2253825,
+    "fixed_budget_no_early_stopping": true,
+    "optimizer": {
+      "name": "AdamW",
+      "learning_rate": 0.0003,
+      "minimum_learning_rate": 0.00003,
+      "betas": [0.9, 0.999],
+      "epsilon": 1e-8,
+      "weight_decay": 0.01,
+      "gradient_clip_norm": 1.0
+    },
+    "schedule": {
+      "name": "target_exposure_cosine_with_warmup",
+      "warmup_target_events": 22538,
+      "warmup_target_equivalent_epochs": 0.05,
+      "decay_end_target_events": 2253825
+    },
+    "precision": {
+      "parameter_dtype": "float32",
+      "forward_backward_dtype": "float32",
+      "gradient_scaler": false,
+      "allow_tf32": false
+    },
+    "cuda_runtime": {
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+    },
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "log_every_updates": 10
+  },
+  "validation_and_checkpointing": {
+    "validation_split": "validation",
+    "validation_milestones": [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0],
+    "selection_rule": "minimum_micro_total_validation_bits_per_exact_musical_event",
+    "tie_tolerance_bits": 1e-12,
+    "tie_break": "earliest_completed_target_exposure",
+    "test_evaluation": "disabled_and_not_loaded",
+    "selection_uses_test": false
+  },
+  "launch": {
+    "required_gate_status": "PASS",
+    "formal_run_count": 6,
+    "allowed_physical_gpu_ids": [0, 1],
+    "forbidden_physical_gpu_ids": [4, 5],
+    "assignment": "A seeds on GPU0; D seeds on GPU1"
+  }
+}

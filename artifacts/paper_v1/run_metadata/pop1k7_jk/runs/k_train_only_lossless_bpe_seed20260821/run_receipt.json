@@ -1,0 +1,40 @@
+{
+  "arm": "K_TRAIN_ONLY_LOSSLESS_BPE",
+  "cache_manifest_sha256": "cbc1a2cb27c477315250712d74dd5c6003d23598f6cd461435e49ba982f886ac",
+  "checkpoint_path": "<REDACTED_ABSOLUTE_PATH>",
+  "checkpoint_sha256": "562809681986d08b62cfc0ea45b19dfd1fda004cff9b8c85c9df219413b354bf",
+  "compact_checkpoints": true,
+  "completed_target_exposures": 3650482000,
+  "elapsed_seconds": 24060.661816554144,
+  "end_time_utc": "2026-08-24T14:25:22.055976+00:00",
+  "hardware": {
+    "cuda_device_name": "NVIDIA GeForce RTX 4090",
+    "cuda_device_queried": true,
+    "declared_physical_gpu_id": 5,
+    "device": "cuda:0",
+    "platform": "Linux-5.15.0-163-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.20",
+    "torch_version": "2.1.2+cu121"
+  },
+  "manifest_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+  "model_parameter_count": {
+    "backbone_parameters": 535680,
+    "decoder_parameters": 133315,
+    "effective_trainable_parameters": 804675,
+    "input_projection_parameters": 4416,
+    "token_embedding_parameters": 131264,
+    "total_parameters": 804675
+  },
+  "payload_vocabulary_size": 2048,
+  "protocol_sha256": "f816e43f9d4d24a321fef2d388e71b008348b0950bb1b8c57713b8074fbdc261",
+  "run_id": "pop1k7_k_train_only_lossless_bpe_seed20260821",
+  "schema_version": "m4l.pop1k7_remaining.external_run.v1.receipt",
+  "seed": 20260821,
+  "selected_validation_bits_per_original_event": 6.568558582945499,
+  "serialized_tokens_per_original_event": 1.5275635224621849,
+  "source_tree_sha256": "9ab70dc520a359b520c009dd1770d044fd943d52082b8cca6250ff436b306359",
+  "start_time_utc": "2026-08-24T07:44:20.947108+00:00",
+  "status": "FORMAL_TRAINING_COMPLETE",
+  "target_original_event_budget": 3650482000,
+  "test_reads": 0
+}

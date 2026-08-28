@@ -1,0 +1,25 @@
+{
+  "J": {
+    "cache_manifest_sha256": "a4ef45df37b618ef9dccf813a55b772bfdbbe74591a0be23a41d17e97cf240cb",
+    "exact_roundtrip_scope": "every_train_and_validation_window",
+    "payload_vocabulary_size": 1154,
+    "pitch_space": "original_absolute_MIDI_restored_before_serialization",
+    "tokens_per_original_event": 3.556805644699847,
+    "uses_D_time_geometry": false
+  },
+  "K": {
+    "bpe_tokenizer_sha256": "c0a7ce0a2bd7efecd56ebb5360e89a3c3f7b426673062d3db326569e169ad7e7",
+    "cache_manifest_sha256": "cbc1a2cb27c477315250712d74dd5c6003d23598f6cd461435e49ba982f886ac",
+    "exact_roundtrip_scope": "every_train_and_validation_window",
+    "fit_split": "train",
+    "payload_vocabulary_size": 2048,
+    "tokens_per_original_event": 1.5275635224621849,
+    "uses_D_time_geometry": false
+  },
+  "manifest_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+  "protocol_sha256": "0211fe45bf4f92967da17b0bcd56caccad0d55ede5b9c1f79f04d4cf0eb5f5a0",
+  "schema_version": "m4l.pop1k7_remaining.tokenizer_artifacts.v1",
+  "shared_cache_manifest_sha256": "42d7d2795e8f5f15e2a61ea2e905ae47bd119b11db2ea5b33f3c4bf62d46926d",
+  "status": "PASS",
+  "test_reads": 0
+}

@@ -1,0 +1,4 @@
+arm: A
+operation: independent_corpus_coordinate_reference
+coordinate_schema: [generic_sequence_position, type, absolute_pitch, duration]
+side_information_schema: []

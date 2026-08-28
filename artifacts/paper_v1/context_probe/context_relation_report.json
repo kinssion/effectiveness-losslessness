@@ -1,0 +1,82 @@
+{
+  "best_epoch": 6,
+  "config": {
+    "batch_size": 128,
+    "cross_loss_weight": 0.0,
+    "data_root": "pop909_latents_r1_full",
+    "epochs": 6,
+    "heads": 4,
+    "layers": 2,
+    "learning_rate": 0.0003,
+    "max_gradient_norm": 1.0,
+    "max_test_windows": null,
+    "max_train_windows": null,
+    "max_validation_windows": null,
+    "model_dim": 64,
+    "output": "train_r1_full_same_song_seed20260801",
+    "same_loss_weight": 1.0,
+    "seed": 20260801,
+    "weight_decay": 0.0001
+  },
+  "dataset_windows": {
+    "test": 6112,
+    "train": 46743,
+    "validation": 5409
+  },
+  "limitations": [
+    "cross-song negatives are not yet feature-matched hard negatives",
+    "no predicted-clean noise curriculum in this run",
+    "no human labels used for training",
+    "human anchor audit not yet run"
+  ],
+  "negative_contract": {
+    "random_cross_song": {
+      "role": "audit only until feature-matched hard negatives exist",
+      "training_weight": 0.0
+    },
+    "same_song_wrong_position": {
+      "role": "primary relation objective",
+      "training_weight": 1.0
+    }
+  },
+  "scope": "r1_clean_same_song_primary_random_cross_audit",
+  "target_prior_trained": false,
+  "test_cross_accuracy_wilson_lower_95": 0.9714462583889907,
+  "test_full": {
+    "cross_broad_accuracy": 0.9759489528795812,
+    "cross_broad_mean_margin": 5.470595914031823,
+    "cross_combined_accuracy": 0.975621727748691,
+    "cross_combined_mean_margin": 5.355184240490979,
+    "cross_phrase_accuracy": 0.9743128272251309,
+    "cross_phrase_mean_margin": 5.239772676797437,
+    "examples": 6112,
+    "loss": 0.2791623564446784,
+    "mean_combined_accuracy": 0.8674738219895288,
+    "same_broad_accuracy": 0.7583442408376964,
+    "same_broad_mean_margin": 1.4649426868448707,
+    "same_combined_accuracy": 0.7593259162303665,
+    "same_combined_mean_margin": 1.4494366258850897,
+    "same_phrase_accuracy": 0.7570353403141361,
+    "same_phrase_mean_margin": 1.4339305465134027
+  },
+  "test_full_minus_target_only_same_accuracy": 0.2706151832460733,
+  "test_same_accuracy_wilson_lower_95": 0.7484476596773081,
+  "test_target_only": {
+    "cross_broad_accuracy": 0.4967277486910995,
+    "cross_broad_mean_margin": -0.00039612103000049193,
+    "cross_combined_accuracy": 0.4967277486910995,
+    "cross_combined_mean_margin": -0.00039612103000049193,
+    "cross_phrase_accuracy": 0.4967277486910995,
+    "cross_phrase_mean_margin": -0.00039612103000049193,
+    "examples": 6112,
+    "loss": 0.6940798247671877,
+    "mean_combined_accuracy": 0.49271924083769636,
+    "same_broad_accuracy": 0.4887107329842932,
+    "same_broad_mean_margin": -0.0011848610123687702,
+    "same_combined_accuracy": 0.4887107329842932,
+    "same_combined_mean_margin": -0.0011848610123687702,
+    "same_phrase_accuracy": 0.4887107329842932,
+    "same_phrase_mean_margin": -0.0011848610123687702
+  },
+  "verdict": "CLEAN_SAME_SONG_RELATION_SIGNAL"
+}

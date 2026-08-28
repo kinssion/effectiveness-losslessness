@@ -1,0 +1,1040 @@
+{
+  "arm_summary": [
+    {
+      "arm": "A",
+      "mean_duration_bits_per_event_contribution": 2.817455081939405,
+      "mean_pitch_bits_per_event_contribution": 3.0540923095823067,
+      "mean_test_bits_per_exact_event": 7.058521599862164,
+      "mean_time_bits_per_event_contribution": 1.1495697154728697,
+      "mean_type_bits_per_event_contribution": 0.0374044988851841,
+      "sample_sd_duration_bits_per_event_contribution": 0.0038630269551929042,
+      "sample_sd_pitch_bits_per_event_contribution": 0.0011633399708242554,
+      "sample_sd_test_bits_per_exact_event": 0.007589316251547572,
+      "sample_sd_time_bits_per_event_contribution": 0.005011698348387614,
+      "sample_sd_type_bits_per_event_contribution": 0.00012411875091168772,
+      "seed_values": {
+        "20260819": 7.065531666202776,
+        "20260820": 7.050462233744963,
+        "20260821": 7.059570899638754
+      }
+    },
+    {
+      "arm": "B",
+      "mean_duration_bits_per_event_contribution": 2.6369851548794045,
+      "mean_pitch_bits_per_event_contribution": 2.8125150547846065,
+      "mean_test_bits_per_exact_event": 6.370195837244405,
+      "mean_time_bits_per_event_contribution": 0.9034101910324922,
+      "mean_type_bits_per_event_contribution": 0.017285437985869723,
+      "sample_sd_duration_bits_per_event_contribution": 0.006930978433234225,
+      "sample_sd_pitch_bits_per_event_contribution": 0.017820806673418423,
+      "sample_sd_test_bits_per_exact_event": 0.02708010747924953,
+      "sample_sd_time_bits_per_event_contribution": 0.007600716754655851,
+      "sample_sd_type_bits_per_event_contribution": 0.00034228201521595595,
+      "seed_values": {
+        "20260819": 6.4012518625547195,
+        "20260820": 6.357826097856636,
+        "20260821": 6.351509551321858
+      }
+    },
+    {
+      "arm": "C",
+      "mean_duration_bits_per_event_contribution": 2.628641047823951,
+      "mean_pitch_bits_per_event_contribution": 2.7600539910493698,
+      "mean_test_bits_per_exact_event": 6.275363398010835,
+      "mean_time_bits_per_event_contribution": 0.8702314789109091,
+      "mean_type_bits_per_event_contribution": 0.016436887920858217,
+      "sample_sd_duration_bits_per_event_contribution": 0.009968471217141107,
+      "sample_sd_pitch_bits_per_event_contribution": 0.036010401694586865,
+      "sample_sd_test_bits_per_exact_event": 0.04810561303797454,
+      "sample_sd_time_bits_per_event_contribution": 0.0032225621246506106,
+      "sample_sd_type_bits_per_event_contribution": 0.0002199971973368994,
+      "seed_values": {
+        "20260819": 6.282556547640939,
+        "20260820": 6.319467388753841,
+        "20260821": 6.224066257637726
+      }
+    },
+    {
+      "arm": "D",
+      "mean_duration_bits_per_event_contribution": 2.6194268149672024,
+      "mean_pitch_bits_per_event_contribution": 2.7166359277446452,
+      "mean_test_bits_per_exact_event": 6.217306224497957,
+      "mean_time_bits_per_event_contribution": 0.8649706000425909,
+      "mean_type_bits_per_event_contribution": 0.016272882933138635,
+      "sample_sd_duration_bits_per_event_contribution": 0.0080584482654354,
+      "sample_sd_pitch_bits_per_event_contribution": 0.01143966324207682,
+      "sample_sd_test_bits_per_exact_event": 0.01350294114878766,
+      "sample_sd_time_bits_per_event_contribution": 0.0010911213036579426,
+      "sample_sd_type_bits_per_event_contribution": 0.00020453211923335369,
+      "seed_values": {
+        "20260819": 6.231177767819051,
+        "20260820": 6.216536053707227,
+        "20260821": 6.204204851967593
+      }
+    },
+    {
+      "arm": "E",
+      "mean_duration_bits_per_event_contribution": 2.6189852219307603,
+      "mean_pitch_bits_per_event_contribution": 2.733879650602176,
+      "mean_test_bits_per_exact_event": 6.227543961397292,
+      "mean_time_bits_per_event_contribution": 0.8584643193287095,
+      "mean_type_bits_per_event_contribution": 0.01621477293691454,
+      "sample_sd_duration_bits_per_event_contribution": 0.004847176272439209,
+      "sample_sd_pitch_bits_per_event_contribution": 0.02743750898850819,
+      "sample_sd_test_bits_per_exact_event": 0.034178430327325995,
+      "sample_sd_time_bits_per_event_contribution": 0.008706637291624164,
+      "sample_sd_type_bits_per_event_contribution": 0.0002404546302662216,
+      "seed_values": {
+        "20260819": 6.23456323260734,
+        "20260820": 6.190400823545258,
+        "20260821": 6.257667828039281
+      }
+    },
+    {
+      "arm": "F",
+      "mean_duration_bits_per_event_contribution": 2.6646014447579227,
+      "mean_pitch_bits_per_event_contribution": 2.882255379296089,
+      "mean_test_bits_per_exact_event": 6.431270431108985,
+      "mean_time_bits_per_event_contribution": 0.8680056303390762,
+      "mean_type_bits_per_event_contribution": 0.016407983673512646,
+      "sample_sd_duration_bits_per_event_contribution": 0.0063593356993308725,
+      "sample_sd_pitch_bits_per_event_contribution": 0.009813734143926943,
+      "sample_sd_test_bits_per_exact_event": 0.010291848716515452,
+      "sample_sd_time_bits_per_event_contribution": 0.003442595150673,
+      "sample_sd_type_bits_per_event_contribution": 0.000221565040489286,
+      "seed_values": {
+        "20260819": 6.436620563049862,
+        "20260820": 6.437785262644236,
+        "20260821": 6.41940546763286
+      }
+    },
+    {
+      "arm": "G",
+      "mean_duration_bits_per_event_contribution": 2.673993864910436,
+      "mean_pitch_bits_per_event_contribution": 2.7461931569640328,
+      "mean_test_bits_per_exact_event": 6.3072219457079965,
+      "mean_time_bits_per_event_contribution": 0.8706241244155026,
+      "mean_type_bits_per_event_contribution": 0.016410805237748734,
+      "sample_sd_duration_bits_per_event_contribution": 0.002077854635146683,
+      "sample_sd_pitch_bits_per_event_contribution": 0.008762307579166621,
+      "sample_sd_test_bits_per_exact_event": 0.007372712518605178,
+      "sample_sd_time_bits_per_event_contribution": 0.002320493472509578,
+      "sample_sd_type_bits_per_event_contribution": 0.00047906709656494355,
+      "seed_values": {
+        "20260819": 6.315526440095951,
+        "20260820": 6.301446917073925,
+        "20260821": 6.304692479954111
+      }
+    },
+    {
+      "arm": "H",
+      "mean_duration_bits_per_event_contribution": 2.6173226170635684,
+      "mean_pitch_bits_per_event_contribution": 2.6912830664015366,
+      "mean_test_bits_per_exact_event": 6.185852158783617,
+      "mean_time_bits_per_event_contribution": 0.8609462403214313,
+      "mean_type_bits_per_event_contribution": 0.01630023441627264,
+      "sample_sd_duration_bits_per_event_contribution": 0.002511223639308235,
+      "sample_sd_pitch_bits_per_event_contribution": 0.007652424085681923,
+      "sample_sd_test_bits_per_exact_event": 0.017707516439461054,
+      "sample_sd_time_bits_per_event_contribution": 0.00814234060388102,
+      "sample_sd_type_bits_per_event_contribution": 0.0002006379241444741,
+      "seed_values": {
+        "20260819": 6.184373577617333,
+        "20260820": 6.168930291795556,
+        "20260821": 6.20425260693796
+      }
+    },
+    {
+      "arm": "I",
+      "mean_duration_bits_per_event_contribution": 2.6211156742188417,
+      "mean_pitch_bits_per_event_contribution": 2.7748782714718847,
+      "mean_test_bits_per_exact_event": 6.283362480983988,
+      "mean_time_bits_per_event_contribution": 0.871081194928872,
+      "mean_type_bits_per_event_contribution": 0.016287339782789075,
+      "sample_sd_duration_bits_per_event_contribution": 0.0058650795792686205,
+      "sample_sd_pitch_bits_per_event_contribution": 0.020965728467748287,
+      "sample_sd_test_bits_per_exact_event": 0.027880094149680054,
+      "sample_sd_time_bits_per_event_contribution": 0.001200191185125347,
+      "sample_sd_type_bits_per_event_contribution": 0.00014518102616900794,
+      "seed_values": {
+        "20260819": 6.301283461719109,
+        "20260820": 6.297562916481201,
+        "20260821": 6.251241064751652
+      }
+    }
+  ],
+  "checkpoint_updates": 0,
+  "content_sha256": "6097bb39faf26cc52445c33cd5be258d6c2efd0bdd39de91666ab8590afc5978",
+  "fg_test_cache_pair_audit": {
+    "maximum_pitch_relation_error_semitones": 0,
+    "non_pitch_fields_bitwise_identical": true,
+    "note_count": 173525,
+    "pitch_relation": "canonical_pitch = original_pitch + corrected_whole_song_shift",
+    "sample_count": 1500,
+    "shifted_note_count": 148844,
+    "status": "PASS"
+  },
+  "paired_comparisons": [
+    {
+      "all_three_same_direction": true,
+      "comparison": "B-A",
+      "left_arm": "B",
+      "mean_delta_bits_per_event": -0.6883257626177599,
+      "mean_delta_duration_bits_per_event": -0.18046992706000017,
+      "mean_delta_pitch_bits_per_event": -0.2415772547977005,
+      "mean_delta_time_bits_per_event": -0.24615952444037725,
+      "mean_delta_type_bits_per_event": -0.020119060899314378,
+      "right_arm": "A",
+      "sample_sd_delta_bits_per_event": 0.02220676477328751,
+      "seed_delta_duration": {
+        "20260819": -0.18221116181008057,
+        "20260820": -0.17404993255045387,
+        "20260821": -0.18514868681946606
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.22098487925032728,
+        "20260820": -0.251104483979228,
+        "20260821": -0.2526424011635462
+      },
+      "seed_delta_time": {
+        "20260819": -0.2405854677156707,
+        "20260820": -0.24722646084788524,
+        "20260821": -0.25066664475757583
+      },
+      "seed_delta_type": {
+        "20260819": -0.020498298061422997,
+        "20260820": -0.020255266055735268,
+        "20260821": -0.019603618580784868
+      },
+      "seed_deltas": {
+        "20260819": -0.6642798036480562,
+        "20260820": -0.6926361358883275,
+        "20260821": -0.708061348316896
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "C-B",
+      "left_arm": "C",
+      "mean_delta_bits_per_event": -0.09483243923356888,
+      "mean_delta_duration_bits_per_event": -0.008344107055453373,
+      "mean_delta_pitch_bits_per_event": -0.052461063735236735,
+      "mean_delta_time_bits_per_event": -0.03317871212158315,
+      "mean_delta_type_bits_per_event": -0.0008485500650115089,
+      "right_arm": "B",
+      "sample_sd_delta_bits_per_event": 0.049102886160634726,
+      "seed_delta_duration": {
+        "20260819": -0.006266858279105225,
+        "20260820": -0.006826023126816683,
+        "20260821": -0.011939439760438209
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.06870731896938853,
+        "20260820": -0.008128729197146356,
+        "20260821": -0.08054714303917532
+      },
+      "seed_delta_time": {
+        "20260819": -0.0433769612340289,
+        "20260820": -0.02261751321905603,
+        "20260821": -0.03354166191166452
+      },
+      "seed_delta_type": {
+        "20260819": -0.00034416619305452714,
+        "20260820": -0.0007864384937286972,
+        "20260821": -0.0014150455082513023
+      },
+      "seed_deltas": {
+        "20260819": -0.11869531491378016,
+        "20260820": -0.03835870910279482,
+        "20260821": -0.12744329368413165
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "D-C",
+      "left_arm": "D",
+      "mean_delta_bits_per_event": -0.058057173512878535,
+      "mean_delta_duration_bits_per_event": -0.009214232856748605,
+      "mean_delta_pitch_bits_per_event": -0.043418063304724676,
+      "mean_delta_time_bits_per_event": -0.005260878868318238,
+      "mean_delta_type_bits_per_event": -0.00016400498771958322,
+      "right_arm": "C",
+      "sample_sd_delta_bits_per_event": 0.04193571268468323,
+      "seed_delta_duration": {
+        "20260819": -0.012391926131757547,
+        "20260820": -0.008789902565038865,
+        "20260821": -0.006460869873449404
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.034594901251930654,
+        "20260820": -0.0847320653185446,
+        "20260821": -0.010927223343698778
+      },
+      "seed_delta_time": {
+        "20260819": -0.004217692933858763,
+        "20260820": -0.00918054819482561,
+        "20260821": -0.00238439547627034
+      },
+      "seed_delta_type": {
+        "20260819": -0.0001742680907627879,
+        "20260820": -0.00022881672585489676,
+        "20260821": -8.893014654106496e-05
+      },
+      "seed_deltas": {
+        "20260819": -0.05137877982188854,
+        "20260820": -0.10293133504661434,
+        "20260821": -0.019861405670132726
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "D-A",
+      "left_arm": "D",
+      "mean_delta_bits_per_event": -0.8412153753642073,
+      "mean_delta_duration_bits_per_event": -0.19802826697220213,
+      "mean_delta_pitch_bits_per_event": -0.3374563818376619,
+      "mean_delta_time_bits_per_event": -0.28459911543027866,
+      "mean_delta_type_bits_per_event": -0.021131615952045473,
+      "right_arm": "A",
+      "sample_sd_delta_bits_per_event": 0.012256707584010922,
+      "seed_delta_duration": {
+        "20260819": -0.20086994622094334,
+        "20260820": -0.18966585824230942,
+        "20260821": -0.20354899645335367
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.32428709947164647,
+        "20260820": -0.343965278494919,
+        "20260821": -0.3441167675464203
+      },
+      "seed_delta_time": {
+        "20260819": -0.28818012188355835,
+        "20260820": -0.2790245222617669,
+        "20260821": -0.2865927021455107
+      },
+      "seed_delta_type": {
+        "20260819": -0.021016732345240312,
+        "20260820": -0.021270521275318862,
+        "20260821": -0.021107594235577235
+      },
+      "seed_deltas": {
+        "20260819": -0.8343538983837249,
+        "20260820": -0.8339261800377367,
+        "20260821": -0.8553660476711604
+      }
+    },
+    {
+      "all_three_same_direction": false,
+      "comparison": "E-D",
+      "left_arm": "E",
+      "mean_delta_bits_per_event": 0.01023773689933627,
+      "mean_delta_duration_bits_per_event": -0.00044159303644208947,
+      "mean_delta_pitch_bits_per_event": 0.01724372285753084,
+      "mean_delta_time_bits_per_event": -0.006506280713881448,
+      "mean_delta_type_bits_per_event": -5.8109996224092277e-05,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_event": 0.04023908341049542,
+      "seed_delta_duration": {
+        "20260819": 0.0030038760298762845,
+        "20260820": -0.007791380723855212,
+        "20260821": 0.0034627255846526594
+      },
+      "seed_delta_pitch": {
+        "20260819": 0.003601783193207364,
+        "20260820": -0.0022820325499290917,
+        "20260821": 0.05041141792931425
+      },
+      "seed_delta_time": {
+        "20260819": -0.0027290193970234133,
+        "20260820": -0.01606575377616204,
+        "20260821": -0.0007240689684588908
+      },
+      "seed_delta_type": {
+        "20260819": -0.0004911791702781575,
+        "20260820": 3.93804999221023e-06,
+        "20260821": 0.0003129111316136704
+      },
+      "seed_deltas": {
+        "20260819": 0.003385464788289383,
+        "20260820": -0.026135230161968614,
+        "20260821": 0.05346297607168804
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "G-F",
+      "left_arm": "G",
+      "mean_delta_bits_per_event": -0.12404848540099038,
+      "mean_delta_duration_bits_per_event": 0.009392420152512848,
+      "mean_delta_pitch_bits_per_event": -0.13606222233205637,
+      "mean_delta_time_bits_per_event": 0.0026184940764263733,
+      "mean_delta_type_bits_per_event": 2.821564236086168e-06,
+      "right_arm": "F",
+      "sample_sd_delta_bits_per_event": 0.011111265413357652,
+      "seed_delta_duration": {
+        "20260819": 0.012452043409618696,
+        "20260820": -0.00014253955429932574,
+        "20260821": 0.015867756602219174
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.13727088323312886,
+        "20260820": -0.13558154383315646,
+        "20260821": -0.1353342399298838
+      },
+      "seed_delta_time": {
+        "20260819": 0.004172362414355479,
+        "20260820": -0.0012360498932731945,
+        "20260821": 0.0049191697081968355
+      },
+      "seed_delta_type": {
+        "20260819": -0.0004476342667771027,
+        "20260820": 0.0006217743705333283,
+        "20260821": -0.00016567541104796704
+      },
+      "seed_deltas": {
+        "20260819": -0.12109412295391131,
+        "20260820": -0.13633834557031133,
+        "20260821": -0.11471298767874849
+      }
+    },
+    {
+      "all_three_same_direction": false,
+      "comparison": "H-D",
+      "left_arm": "H",
+      "mean_delta_bits_per_event": -0.03145406571434043,
+      "mean_delta_duration_bits_per_event": -0.0021041979036341787,
+      "mean_delta_pitch_bits_per_event": -0.025352861343108508,
+      "mean_delta_time_bits_per_event": -0.004024359721159591,
+      "mean_delta_type_bits_per_event": 2.7351483134009185e-05,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_event": 0.027284320756436747,
+      "seed_delta_duration": {
+        "20260819": -0.0032894067067230637,
+        "20260820": -0.011969787164111345,
+        "20260821": 0.008946600159931872
+      },
+      "seed_delta_pitch": {
+        "20260819": -0.03705285841607786,
+        "20260820": -0.02596414476584874,
+        "20260821": -0.013041580847398926
+      },
+      "seed_delta_time": {
+        "20260819": -0.006482309802685604,
+        "20260820": -0.009684658641997745,
+        "20260821": 0.004093889281204577
+      },
+      "seed_delta_type": {
+        "20260819": 2.0384473723843166e-05,
+        "20260820": 1.2824750061854462e-05,
+        "20260821": 4.8845225616329924e-05
+      },
+      "seed_deltas": {
+        "20260819": -0.04680419020171733,
+        "20260820": -0.04760576191167054,
+        "20260821": 4.775497036657583e-05
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "I-H",
+      "left_arm": "I",
+      "mean_delta_bits_per_event": 0.09751032220037104,
+      "mean_delta_duration_bits_per_event": 0.0037930571552733383,
+      "mean_delta_pitch_bits_per_event": 0.08359520507034857,
+      "mean_delta_time_bits_per_event": 0.01013495460744085,
+      "mean_delta_type_bits_per_event": -1.2894633483568249e-05,
+      "right_arm": "H",
+      "sample_sd_delta_bits_per_event": 0.0441440794164815,
+      "seed_delta_duration": {
+        "20260819": 0.007462280207501504,
+        "20260820": 0.009225088307486473,
+        "20260821": -0.005308197049167962
+      },
+      "seed_delta_pitch": {
+        "20260819": 0.09534974478877167,
+        "20260820": 0.10283940526969904,
+        "20260821": 0.05259646515257499
+      },
+      "seed_delta_time": {
+        "20260819": 0.014411452054776341,
+        "20260820": 0.016529199437863573,
+        "20260821": -0.000535787670317367
+      },
+      "seed_delta_type": {
+        "20260819": -0.0003135998079058719,
+        "20260820": 3.8926909247626734e-05,
+        "20260821": 0.0002359889982075404
+      },
+      "seed_deltas": {
+        "20260819": 0.1169098841017755,
+        "20260820": 0.12863262468564507,
+        "20260821": 0.04698845781369254
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "I-D",
+      "left_arm": "I",
+      "mean_delta_bits_per_event": 0.0660562564860306,
+      "mean_delta_duration_bits_per_event": 0.0016888592516391594,
+      "mean_delta_pitch_bits_per_event": 0.058242343727240055,
+      "mean_delta_time_bits_per_event": 0.006110594886281258,
+      "mean_delta_type_bits_per_event": 1.4456849650440936e-05,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_event": 0.017353372272034873,
+      "seed_delta_duration": {
+        "20260819": 0.00417287350077844,
+        "20260820": -0.002744698856624872,
+        "20260821": 0.0036384031107639103
+      },
+      "seed_delta_pitch": {
+        "20260819": 0.05829688637269381,
+        "20260820": 0.0768752605038503,
+        "20260821": 0.03955488430517606
+      },
+      "seed_delta_time": {
+        "20260819": 0.007929142252090737,
+        "20260820": 0.006844540795865828,
+        "20260821": 0.00355810161088721
+      },
+      "seed_delta_type": {
+        "20260819": -0.0002932153341820287,
+        "20260820": 5.1751659309481196e-05,
+        "20260821": 0.00028483422382387033
+      },
+      "seed_deltas": {
+        "20260819": 0.07010569390005816,
+        "20260820": 0.08102686277397453,
+        "20260821": 0.04703621278405912
+      }
+    }
+  ],
+  "per_run": [
+    {
+      "arm": "A",
+      "checkpoint_sha256": "175deadbf4a4e56c6657e5971c6217b2cd1d18063d02ea4098b5a023383d3b71",
+      "duration_bits_per_event_contribution": 2.82175841637596,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.03348236218925027,
+      "pitch_bits_per_event_contribution": 3.054072592675396,
+      "predicted_eos_rate": 0.0037584749926304413,
+      "reconstructed_total_bits_per_event": 7.065531670231023,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.9251733273863225,
+      "test_bits_per_exact_event": 7.065531666202776,
+      "time_bits_per_event_contribution": 1.1521754691115542,
+      "type_bits_per_event_contribution": 0.03752519206811205
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "00a54302abd17e05bd1972002c9e99aed16064dfda8c523e0d5994cc8afb2974",
+      "duration_bits_per_event_contribution": 2.8163202538440544,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.035099570927909336,
+      "pitch_bits_per_event_contribution": 3.0529389533864375,
+      "predicted_eos_rate": 0.0029601061216468507,
+      "reconstructed_total_bits_per_event": 7.0504622416867715,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.905403488651835,
+      "test_bits_per_exact_event": 7.050462233744963,
+      "time_bits_per_event_contribution": 1.143791946887675,
+      "type_bits_per_event_contribution": 0.03741108756860504
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "e911924fa1b566a17f80aaa4531576605397be7848f34e627dd35b36e89763d6",
+      "duration_bits_per_event_contribution": 2.8142865755982,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.032569355736792115,
+      "pitch_bits_per_event_contribution": 3.055265382685087,
+      "predicted_eos_rate": 0.0026161933772231504,
+      "reconstructed_total_bits_per_event": 7.059570905721502,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.937508712583924,
+      "test_bits_per_exact_event": 7.059570899638754,
+      "time_bits_per_event_contribution": 1.1527417304193794,
+      "type_bits_per_event_contribution": 0.03727721701883522
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "5c5e47e568c3dfa605b756dde850e3a00b4ceefc2877e286c60131f65f631edc",
+      "duration_bits_per_event_contribution": 2.6395472545658794,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.02829501162752612,
+      "pitch_bits_per_event_contribution": 2.8330877134250687,
+      "predicted_eos_rate": 0.007529232583276015,
+      "reconstructed_total_bits_per_event": 6.4012518633935205,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.304605329934718,
+      "test_bits_per_exact_event": 6.4012518625547195,
+      "time_bits_per_event_contribution": 0.9115900013958835,
+      "type_bits_per_event_contribution": 0.017026894006689053
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "e7b06f081782a03865b0ed3b89c2de71c8d8a9894eb56448c016c8525dcc7151",
+      "duration_bits_per_event_contribution": 2.6422703212936005,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.027038092430644263,
+      "pitch_bits_per_event_contribution": 2.8018344694072095,
+      "predicted_eos_rate": 0.007328616815695523,
+      "reconstructed_total_bits_per_event": 6.35782609825347,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.261873734567551,
+      "test_bits_per_exact_event": 6.357826097856636,
+      "time_bits_per_event_contribution": 0.8965654860397897,
+      "type_bits_per_event_contribution": 0.017155821512869773
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "edf9bce9aabfe50357bfb6131b33ae1116f1e0575b1bd72e12a5f355c7ffdba8",
+      "duration_bits_per_event_contribution": 2.629137888778734,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.028131243653991025,
+      "pitch_bits_per_event_contribution": 2.802622981521541,
+      "predicted_eos_rate": 0.007046117061347483,
+      "reconstructed_total_bits_per_event": 6.3515095544001285,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.251582941687335,
+      "test_bits_per_exact_event": 6.351509551321858,
+      "time_bits_per_event_contribution": 0.9020750856618036,
+      "type_bits_per_event_contribution": 0.01767359843805035
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "22401065eb560a01c209459d428adeac852b4b80dc33ad60fde9473e56ae7bf4",
+      "duration_bits_per_event_contribution": 2.633280396286774,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.02842193180701582,
+      "pitch_bits_per_event_contribution": 2.76438039445568,
+      "predicted_eos_rate": 0.007324522616357145,
+      "reconstructed_total_bits_per_event": 6.2825565587179435,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.1908206661664655,
+      "test_bits_per_exact_event": 6.282556547640939,
+      "time_bits_per_event_contribution": 0.8682130401618546,
+      "type_bits_per_event_contribution": 0.016682727813634526
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "ce10bd9ea1da07d32e0b28eee5459b9b0d919f1aff024e3e5c0a7ef3fc29fad4",
+      "duration_bits_per_event_contribution": 2.635444298166784,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.02660001310143788,
+      "pitch_bits_per_event_contribution": 2.793705740210063,
+      "predicted_eos_rate": 0.00734908781238741,
+      "reconstructed_total_bits_per_event": 6.319467394216721,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.223621256040978,
+      "test_bits_per_exact_event": 6.319467388753841,
+      "time_bits_per_event_contribution": 0.8739479728207337,
+      "type_bits_per_event_contribution": 0.016369383019141075
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "7f204e74be9b442bd014d99155a1b7472fd858348275683bb985046ff1dc47a7",
+      "duration_bits_per_event_contribution": 2.6171984490182956,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.027832367102289476,
+      "pitch_bits_per_event_contribution": 2.7220758384823656,
+      "predicted_eos_rate": 0.007647964364088959,
+      "reconstructed_total_bits_per_event": 6.2240662641806,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.132191824150323,
+      "test_bits_per_exact_event": 6.224066257637726,
+      "time_bits_per_event_contribution": 0.8685334237501391,
+      "type_bits_per_event_contribution": 0.01625855292979905
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "3aeb7b28982bd00bb7e93f8ffe807bf61bfda9d348c1b87515df23a0bf5ca70b",
+      "duration_bits_per_event_contribution": 2.6208884701550166,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.029195735481969146,
+      "pitch_bits_per_event_contribution": 2.7297854932037495,
+      "predicted_eos_rate": 0.007742130948871639,
+      "reconstructed_total_bits_per_event": 6.231177770309634,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.124816471262714,
+      "test_bits_per_exact_event": 6.231177767819051,
+      "time_bits_per_event_contribution": 0.8639953472279959,
+      "type_bits_per_event_contribution": 0.016508459722871738
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "89b3fbc7ecf147cceee7a2903fac3f5e447cde73e267240f727684f8cb8b4b54",
+      "duration_bits_per_event_contribution": 2.626654395601745,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.030342111296714814,
+      "pitch_bits_per_event_contribution": 2.7089736748915185,
+      "predicted_eos_rate": 0.007594739772690053,
+      "reconstructed_total_bits_per_event": 6.216536061412458,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.118770131875936,
+      "test_bits_per_exact_event": 6.216536053707227,
+      "time_bits_per_event_contribution": 0.864767424625908,
+      "type_bits_per_event_contribution": 0.01614056629328618
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "c049c7b62372a7ad609ef435daaa85a9d98d17db6aebb9dc05695b9a54b92419",
+      "duration_bits_per_event_contribution": 2.610737579144846,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "abcd",
+      "invalid_event_rate": 0.02730830958697717,
+      "pitch_bits_per_event_contribution": 2.711148615138667,
+      "predicted_eos_rate": 0.007672529560119223,
+      "reconstructed_total_bits_per_event": 6.204204845340639,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.111339117037933,
+      "test_bits_per_exact_event": 6.204204851967593,
+      "time_bits_per_event_contribution": 0.8661490282738687,
+      "type_bits_per_event_contribution": 0.016169622783257984
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "280dc3c32ececf1747fb2a4ddd5be224d038669da05e4feda47c25d6913435b2",
+      "duration_bits_per_event_contribution": 2.623892346184893,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.028774032950116275,
+      "pitch_bits_per_event_contribution": 2.733387276396957,
+      "predicted_eos_rate": 0.007660246962104091,
+      "reconstructed_total_bits_per_event": 6.234563230965415,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.137490075921746,
+      "test_bits_per_exact_event": 6.23456323260734,
+      "time_bits_per_event_contribution": 0.8612663278309725,
+      "type_bits_per_event_contribution": 0.01601728055259358
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "46ea23a4d37918e64819b14879ad115acc63279626ac56635a995c07f7a71f22",
+      "duration_bits_per_event_contribution": 2.6188630148778897,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.028634830172611443,
+      "pitch_bits_per_event_contribution": 2.7066916423415894,
+      "predicted_eos_rate": 0.007406406603124693,
+      "reconstructed_total_bits_per_event": 6.190400832412504,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.097744685302693,
+      "test_bits_per_exact_event": 6.190400823545258,
+      "time_bits_per_event_contribution": 0.848701670849746,
+      "type_bits_per_event_contribution": 0.01614450434327839
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "d1dca7d30f787dca7ee717a7ac24d26da0f89c1936acd4b5ff88feb07c34f240",
+      "duration_bits_per_event_contribution": 2.614200304729499,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.02777914251089057,
+      "pitch_bits_per_event_contribution": 2.761560033067981,
+      "predicted_eos_rate": 0.007611116570043562,
+      "reconstructed_total_bits_per_event": 6.257667831017761,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.165548601169773,
+      "test_bits_per_exact_event": 6.257667828039281,
+      "time_bits_per_event_contribution": 0.8654249593054099,
+      "type_bits_per_event_contribution": 0.016482533914871655
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "93a86ae6854c7a2e38a6a0bec4da1ec14011b815df777f8af50b4677e27d3bd0",
+      "duration_bits_per_event_contribution": 2.6624303065237584,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.0272785439255967,
+      "pitch_bits_per_event_contribution": 2.8933965486223676,
+      "predicted_eos_rate": 0.008032174399872034,
+      "reconstructed_total_bits_per_event": 6.43662056695049,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.478011529787481,
+      "test_bits_per_exact_event": 6.436620563049862,
+      "time_bits_per_event_contribution": 0.8644484251255484,
+      "type_bits_per_event_contribution": 0.016345286678815702
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "8d64b35475e3a530c279582530d14261b273ee48c204a951623b7006b6f16669",
+      "duration_bits_per_event_contribution": 2.6717620257772894,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.026930064097437246,
+      "pitch_bits_per_event_contribution": 2.878477875049458,
+      "predicted_eos_rate": 0.008083589456485725,
+      "reconstructed_total_bits_per_event": 6.4377852700522,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.476856428014467,
+      "test_bits_per_exact_event": 6.437785262644236,
+      "time_bits_per_event_contribution": 0.8713208459983277,
+      "type_bits_per_event_contribution": 0.01622452322712507
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "3c8064edc90af5a0c33e79e318b4e6456ac1ce7f3bc0ac6917c349c974827d05",
+      "duration_bits_per_event_contribution": 2.6596120019727207,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.025833209556345188,
+      "pitch_bits_per_event_contribution": 2.874891714216441,
+      "predicted_eos_rate": 0.007969333775121969,
+      "reconstructed_total_bits_per_event": 6.419405477197111,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.462907443452422,
+      "test_bits_per_exact_event": 6.41940546763286,
+      "time_bits_per_event_contribution": 0.8682476198933526,
+      "type_bits_per_event_contribution": 0.01665414111459717
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "227cb2f08ac69f1da746fa1784bc19812e44b35fa3ca17132f068f8a4ac3e96b",
+      "duration_bits_per_event_contribution": 2.674882349933377,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.025090547627480777,
+      "pitch_bits_per_event_contribution": 2.7561256653892388,
+      "predicted_eos_rate": 0.0076722690035762025,
+      "reconstructed_total_bits_per_event": 6.315526455274558,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.359719459256522,
+      "test_bits_per_exact_event": 6.315526440095951,
+      "time_bits_per_event_contribution": 0.8686207875399039,
+      "type_bits_per_event_contribution": 0.0158976524120386
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "09374d66b764e17e7c6540bb7cbf72b5fdb1f134a73039a3904c5d9b69bcab13",
+      "duration_bits_per_event_contribution": 2.67161948622299,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.026410200747232156,
+      "pitch_bits_per_event_contribution": 2.7428963312163015,
+      "predicted_eos_rate": 0.007843652525621837,
+      "reconstructed_total_bits_per_event": 6.301446911142005,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.330491478056554,
+      "test_bits_per_exact_event": 6.301446917073925,
+      "time_bits_per_event_contribution": 0.8700847961050545,
+      "type_bits_per_event_contribution": 0.016846297597658398
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "2214ab1dd06c8d7b927ee89ef859fde65bd71ff9e5a1f83425d00632ef70c515",
+      "duration_bits_per_event_contribution": 2.67547975857494,
+      "evaluated_event_count": 175046,
+      "evaluated_note_count": 173525,
+      "evaluated_song_count": 1500,
+      "evaluated_support_event_count": 173546,
+      "family": "fg",
+      "invalid_event_rate": 0.026215966088913772,
+      "pitch_bits_per_event_contribution": 2.739557474286557,
+      "predicted_eos_rate": 0.007683694571712579,
+      "reconstructed_total_bits_per_event": 6.304692488166596,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.339751472407382,
+      "test_bits_per_exact_event": 6.304692479954111,
+      "time_bits_per_event_contribution": 0.8731667896015495,
+      "type_bits_per_event_contribution": 0.016488465703549202
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "fc3e12d9ea29c41d2f53580114f5b0d9d53f5abb06176da388cb76281e3e7aa9",
+      "duration_bits_per_event_contribution": 2.6175990634482935,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.0286430185712882,
+      "pitch_bits_per_event_contribution": 2.6927326347876717,
+      "predicted_eos_rate": 0.006698110117585405,
+      "reconstructed_total_bits_per_event": 6.184373579857871,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.08299794940638,
+      "test_bits_per_exact_event": 6.184373577617333,
+      "time_bits_per_event_contribution": 0.8575130374253103,
+      "type_bits_per_event_contribution": 0.01652884419659558
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "dd056f79427576ebd16fd88e7874f082a610241b9742f9b67efd63849e43af7a",
+      "duration_bits_per_event_contribution": 2.6146846084376336,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.0304895024728964,
+      "pitch_bits_per_event_contribution": 2.68300953012567,
+      "predicted_eos_rate": 0.007676623759457601,
+      "reconstructed_total_bits_per_event": 6.168930295590561,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.064111118148668,
+      "test_bits_per_exact_event": 6.168930291795556,
+      "time_bits_per_event_contribution": 0.8550827659839103,
+      "type_bits_per_event_contribution": 0.016153391043348033
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "926db16b5b301e58edcd6e406fc07ef59d5a408c5bdbdb6668055460487d0997",
+      "duration_bits_per_event_contribution": 2.619684179304778,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.02754167894926468,
+      "pitch_bits_per_event_contribution": 2.698107034291268,
+      "predicted_eos_rate": 0.006992892469948577,
+      "reconstructed_total_bits_per_event": 6.204252599159993,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.102960248824237,
+      "test_bits_per_exact_event": 6.20425260693796,
+      "time_bits_per_event_contribution": 0.8702429175550733,
+      "type_bits_per_event_contribution": 0.016218468008874314
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "55c418ed9bd8fee18050db3344e1553c7075d74a117af207a9b36ed5bb0b36ea",
+      "duration_bits_per_event_contribution": 2.625061343655795,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.027447512364482,
+      "pitch_bits_per_event_contribution": 2.7880823795764433,
+      "predicted_eos_rate": 0.0076848121581343555,
+      "reconstructed_total_bits_per_event": 6.301283457101015,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.212094855151649,
+      "test_bits_per_exact_event": 6.301283461719109,
+      "time_bits_per_event_contribution": 0.8719244894800866,
+      "type_bits_per_event_contribution": 0.01621524438868971
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "6ae995e99714f2ade01aaf8d32920126d089aeab9d1159998e2408a4c4adbcff",
+      "duration_bits_per_event_contribution": 2.62390969674512,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.029838524778094396,
+      "pitch_bits_per_event_contribution": 2.785848935395369,
+      "predicted_eos_rate": 0.007308145819003636,
+      "reconstructed_total_bits_per_event": 6.297562915514858,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.207285358059881,
+      "test_bits_per_exact_event": 6.297562916481201,
+      "time_bits_per_event_contribution": 0.8716119654217739,
+      "type_bits_per_event_contribution": 0.01619231795259566
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "14ef0cbc58a885ca8fc3084a84851d5eccfcfd15b1ab37a4beb370f6a2f576ca",
+      "duration_bits_per_event_contribution": 2.61437598225561,
+      "evaluated_event_count": 244248,
+      "evaluated_note_count": 242223,
+      "evaluated_song_count": 1979,
+      "evaluated_support_event_count": 242269,
+      "family": "ehi",
+      "invalid_event_rate": 0.029105663096524844,
+      "pitch_bits_per_event_contribution": 2.750703499443843,
+      "predicted_eos_rate": 0.007373653008417674,
+      "reconstructed_total_bits_per_event": 6.251241068591291,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.1520942182204745,
+      "test_bits_per_exact_event": 6.251241064751652,
+      "time_bits_per_event_contribution": 0.869707129884756,
+      "type_bits_per_event_contribution": 0.016454457007081855
+    }
+  ],
+  "per_song_test_metrics_written": false,
+  "protocol_sha256": "e190c815bd2f946ffbb5530d4e0dcd8f2e85b28b2ceedf167e24268b0626361c",
+  "schema_version": "m4l.pop1k7_music21_clean_test_results.v1",
+  "status": "ONE_SHOT_CLEAN_TEST_COMPLETE",
+  "test_manifest_accessor_calls": {
+    "full_original": 1,
+    "music21_high_confidence": 1
+  },
+  "test_row_file_reads": {
+    "full_original": 1,
+    "music21_high_confidence": 1
+  },
+  "validation_lock_sha256": "5eede254eba307a48ac793d042ffa5fae0ec0c9512c74a9cbbbc199221b2bf40"
+}

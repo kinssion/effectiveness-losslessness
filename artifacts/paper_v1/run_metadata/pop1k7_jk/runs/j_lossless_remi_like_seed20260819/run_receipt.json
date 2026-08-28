@@ -1,0 +1,36 @@
+{
+  "arm": "J_LOSSLESS_REMI_LIKE",
+  "cache_manifest_sha256": "a4ef45df37b618ef9dccf813a55b772bfdbbe74591a0be23a41d17e97cf240cb",
+  "checkpoint_path": "PENDING",
+  "compact_checkpoints": true,
+  "end_time_utc": "PENDING",
+  "hardware": {
+    "cuda_device_name": "NVIDIA GeForce RTX 4090",
+    "cuda_device_queried": true,
+    "declared_physical_gpu_id": 4,
+    "device": "cuda:0",
+    "platform": "Linux-5.15.0-163-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.20",
+    "torch_version": "2.1.2+cu121"
+  },
+  "manifest_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+  "model_parameter_count": {
+    "backbone_parameters": 535680,
+    "decoder_parameters": 75205,
+    "effective_trainable_parameters": 689349,
+    "input_projection_parameters": 4416,
+    "token_embedding_parameters": 74048,
+    "total_parameters": 689349
+  },
+  "payload_vocabulary_size": 1154,
+  "protocol_sha256": "f816e43f9d4d24a321fef2d388e71b008348b0950bb1b8c57713b8074fbdc261",
+  "run_id": "pop1k7_j_lossless_remi_like_seed20260819",
+  "schema_version": "m4l.pop1k7_remaining.external_run.v1.receipt",
+  "seed": 20260819,
+  "serialized_tokens_per_original_event": 3.556805644699847,
+  "source_tree_sha256": "9ab70dc520a359b520c009dd1770d044fd943d52082b8cca6250ff436b306359",
+  "start_time_utc": "2026-08-24T07:44:20.942051+00:00",
+  "status": "FORMAL_TRAINING_STARTED",
+  "target_original_event_budget": 3650482000,
+  "test_reads": 0
+}

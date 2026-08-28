@@ -1,0 +1,164 @@
+{
+  "schema_version": "m4l.pop1k7_corrected_df_trend.protocol.v1",
+  "status": "FROZEN_BEFORE_FORMAL_VALIDATION",
+  "scientific_scope": {
+    "purpose": "formal matched original-pitch versus music21-canonicalized pitch comparison",
+    "arms": ["ARM_D_RELATIONAL_TIME_GEOMETRY"],
+    "coordinate_variants": {
+      "ARM_F_ORIGINAL_ABSOLUTE_PITCH": "original-key absolute MIDI pitch; no key input",
+      "ARM_G_TONAL_CANONICALIZED_PITCH": "music21 consensus relative-major frame mapped to C/A"
+    },
+    "primary_paired_comparison": "G-F",
+    "primary_metric": "micro_total_validation_bits_per_exact_musical_event",
+    "paper_update_authorized": false
+  },
+  "preregistered_seeds": [20260819, 20260820, 20260821],
+  "data": {
+    "dataset": "pop1k7_music21_consensus_high_confidence_v1",
+    "manifest_path": "data/manifests/pop1k7_music21_ca_8bar_v1/split_manifest.json",
+    "manifest_sha256": "f7354d9246fb25355209bb385b3f45292ec9b8c8d120ffc2fc2f657c4078b897",
+    "tensor_cache_path": "artifacts/pop1k7_music21_ad/tensor_cache_v2",
+    "corrected_key_table_path": "data/manifests/pop1k7_music21_keys_v1/training_key_table.csv",
+    "coordinate_variant_caches": {
+      "ARM_F_ORIGINAL_ABSOLUTE_PITCH": {
+        "path": "artifacts/pop1k7_music21_df/tensor_cache_F_original_v1",
+        "cache_manifest_sha256": "a6da2189698b7f63499a58573d0869c335173eec89db93974751f2b61524631d"
+      },
+      "ARM_G_TONAL_CANONICALIZED_PITCH": {
+        "path": "artifacts/pop1k7_music21_ad/tensor_cache_v2",
+        "cache_manifest_sha256": "d8629082011f9888ad84d147bf872bbc8e4e0543deb08e3c3c81ed05eec21d84"
+      }
+    },
+    "train_manifest_rows": 13572,
+    "validation_manifest_rows": 1476,
+    "sealed_test_manifest_rows": 1500,
+    "train_target_events_per_equivalent_epoch": 1332215,
+    "validation_target_events": 176212,
+    "sealed_test_target_events": 175046,
+    "meter": "constant explicit 4/4 only",
+    "tonal_frame": "music21 Krumhansl-Schmuckler plus Aarden-Essen relative-major-frame consensus; frame->C/A; dataset labels unused",
+    "split_before_windowing": true,
+    "test_rows_must_remain_unloaded": true
+  },
+  "representation": {
+    "arm_configs": {
+      "ARM_D_RELATIONAL_TIME_GEOMETRY": "configs/iclr_ablation/arm_d_relational_time.yaml"
+    },
+    "shared_target_order": ["type", "time", "pitch", "duration"],
+    "canonical_note_order": "onset_ascending_then_pitch_ascending",
+    "semantic_time_grid": "16th-note",
+    "minimum_semantic_rest_ticks": 96
+  },
+  "model": {
+    "layers": 16,
+    "width": 64,
+    "heads": 4,
+    "feedforward_width": 128,
+    "dropout": 0.0,
+    "maximum_sequence_tokens": 2048,
+    "decoder": "shared_Type_Time_Pitch_Duration"
+  },
+  "context_policy": {
+    "maximum_context_bars": 8,
+    "window_bars": 8,
+    "window_stride_bars": 8,
+    "unit": "deterministic_complete_8_bar_window",
+    "random_note_crop": false,
+    "random_bar_crop": false,
+    "future_information": false,
+    "overlength_policy": "hard_fail"
+  },
+  "batch_construction": {
+    "batch_songs": 128,
+    "validation_batch_songs": 128,
+    "drop_last": false,
+    "sampling": "every_train_window_exactly_once_per_equivalent_epoch",
+    "replacement": false,
+    "length_bucket_window_rows": 1024,
+    "paired_arms_share_identical_batch_indices": true
+  },
+  "training": {
+    "target_equivalent_epochs": 2000,
+    "target_event_budget": 2664430000,
+    "fixed_budget_no_early_stopping": true,
+    "optimizer": {
+      "name": "AdamW",
+      "learning_rate": 0.0003,
+      "minimum_learning_rate": 0.00003,
+      "betas": [0.9, 0.999],
+      "epsilon": 1e-8,
+      "weight_decay": 0.01,
+      "gradient_clip_norm": 1.0
+    },
+    "schedule": {
+      "name": "target_exposure_cosine_with_warmup_then_floor",
+      "warmup_target_events": 66611,
+      "warmup_target_equivalent_epochs": 0.05,
+      "decay_end_target_events": 6661075
+    },
+    "batch_stream_schedule": [
+      {"start_epoch": 0, "end_epoch": 5, "protocol_sha256": "2aa561c814269386422d4bb0aacd21c3c68622fbf5068c95509876c07e6cf5f2"},
+      {"start_epoch": 5, "end_epoch": 50, "protocol_sha256": "9ddca87b824c77facc1abcb0ec6ab8e576ba696e61b75b34e6eb70e168d7f8f9"},
+      {"start_epoch": 50, "end_epoch": 100, "protocol_sha256": "0e537360ca8f1d3b1ad4e35d863259960b82eed28cd85ade08fb0ddfa8c4713b"},
+      {"start_epoch": 100, "end_epoch": 200, "protocol_sha256": "ae88c23e1083fc9ab1ba03992ef0fdeba6879dc02c0e7d1a2a7884d034ca6361"},
+      {"start_epoch": 200, "end_epoch": 400, "protocol_sha256": "158f49f6f99058c291000121e44f3929485b815702aec1f7c11612e214e98ed4"},
+      {"start_epoch": 400, "end_epoch": 800, "protocol_sha256": "61bad7144c188653cb51cb4cd2101e4a2af6cd6936dd4af395388211b981089d"},
+      {"start_epoch": 800, "end_epoch": 1200, "protocol_sha256": "34c6b46f7eb3233be0abf312188790b0d0b23826f6acd155e65a4603a5713e57"},
+      {"start_epoch": 1200, "end_epoch": 1400, "protocol_sha256": "df632cd62461fc856fc427be7face3639bd46d7e7b2b192033191caa288f3290"},
+      {"start_epoch": 1400, "end_epoch": 1600, "protocol_sha256": "4b720055b7b32393c3dafc192d8f1caa09fd7e51a3b7f8b19da61a0edbac787c"},
+      {"start_epoch": 1600, "end_epoch": 1800, "protocol_sha256": "dcdb9ba136555a8eff1da9f671d128fe727606b00dbbd455614f6d1830a118f5"},
+      {"start_epoch": 1800, "end_epoch": 2000, "protocol_sha256": "6c44fa2e84a40a9831de7ac46ba998925c52d0238f99314126ae135e1d4a5948"}
+    ],
+    "precision": {
+      "parameter_dtype": "float32",
+      "forward_backward_dtype": "float32",
+      "gradient_scaler": false,
+      "allow_tf32": true
+    },
+    "optimized_trainer": {
+      "version": "pop1k7_trainer_v2",
+      "fast_causal_nonrelational_arms": true,
+      "pairwise_arm_uses_exact_dense_bias": true,
+      "static_validation_cache": true,
+      "async_finite_checks": true,
+      "prefetch_workers": 1,
+      "prefetch_depth": 2,
+      "bf16": false,
+      "torch_compile": false,
+      "fused_adamw": false
+    },
+    "deterministic_algorithms": false,
+    "cudnn_benchmark": true,
+    "log_every_updates": 10
+  },
+  "validation_and_checkpointing": {
+    "validation_split": "validation",
+    "validation_schedule_segments": [
+      {"start_epoch": 0.5, "end_epoch": 5.0, "step_epochs": 0.5},
+      {"start_epoch": 6.0, "end_epoch": 100.0, "step_epochs": 1.0},
+      {"start_epoch": 102.0, "end_epoch": 200.0, "step_epochs": 2.0},
+      {"start_epoch": 205.0, "end_epoch": 400.0, "step_epochs": 5.0},
+      {"start_epoch": 410.0, "end_epoch": 2000.0, "step_epochs": 10.0}
+    ],
+    "selection_rule": "minimum_micro_total_validation_bits_per_exact_musical_event",
+    "tie_tolerance_bits": 1e-12,
+    "tie_break": "earliest_completed_target_exposure",
+    "test_evaluation": "disabled_and_not_loaded",
+    "selection_uses_test": false,
+    "checkpoint_storage": "rolling_latest_plus_immutable_validation_improvements"
+  },
+  "failure_and_restart": {
+    "policy": "exact_resume_from_latest_validation_checkpoint",
+    "optimizer_state_required": true,
+    "rng_state_required": true,
+    "automatic_queue_restart": true
+  },
+  "launch": {
+    "required_gate_status": "PASS",
+    "formal_run_count": 6,
+    "allowed_physical_gpu_ids": [0, 1, 2, 3, 4, 5, 6, 7],
+    "forbidden_physical_gpu_ids": [],
+    "assignment": "eight independent Slurm RTX4090 lanes",
+    "launch_script_path": "cloud/n56r5_pop1k7_music21_formal_lane.sbatch"
+  }
+}

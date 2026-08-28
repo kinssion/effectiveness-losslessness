@@ -1,0 +1,4 @@
+arm: C
+operation: coordinate_gain
+coordinate_schema: [directed_multiscale_unary_time, type, absolute_pitch, duration]
+side_information_schema: []

@@ -1,0 +1,69 @@
+{
+  "audit": {
+    "component_count": 8574,
+    "content_duplicate_families": 408,
+    "cross_split_groups": {
+      "exact_hash": 0,
+      "lineage_id": 0,
+      "rhythm_interval_hash": 4,
+      "transposition_invariant_hash": 0
+    },
+    "exact_duplicate_groups": 410,
+    "official_val_family_target_events": 16494,
+    "official_val_rows_in_heldout": 647,
+    "rhythm_interval_duplicate_groups": 427,
+    "transposition_duplicate_groups": 408
+  },
+  "input": {
+    "admission": "metadata time_signature=4/4 and MIDI key signature C or Am",
+    "dataset": "ComMU official raw MIDI",
+    "metadata_path": "<REDACTED_ABSOLUTE_PATH>",
+    "metadata_sha256": "89cf14e7e8d7321099303c0c79e934d071435d9e7f4187f007778060c87a377a",
+    "sample_count": 9299
+  },
+  "outputs": {
+    "test.jsonl": {
+      "rows": 324,
+      "sha256": "25829d0b444d4ebab108c853b9d6e617e532f0e842655b0edf8c1d37b91e58da"
+    },
+    "train.jsonl": {
+      "rows": 8652,
+      "sha256": "12c8c2e767c5849a9dac50bd2beb5e3bd16d7c834230b661ed9a6ec74e4c789a"
+    },
+    "validation.jsonl": {
+      "rows": 323,
+      "sha256": "5484cfbcdf7fe3f9c77554daf7e2d5e1b4770b6e56aa388d478b8a942ecafad4"
+    }
+  },
+  "preprocessing": {
+    "minimum_semantic_rest_ticks": 96,
+    "model_ppq": 96,
+    "notes": "all non-drum notes; no role, chord, instrument, or melody labels",
+    "source_ppq": 480,
+    "time_conversion": "exact integer rescale; no rounding or quantization",
+    "tonal_frame": "official C major / A minor; verified, no transposition",
+    "version": "commu_4_4_fixed_tonal_frame.v1"
+  },
+  "schema_version": "m4l.commu_4_4_clean_split.v1",
+  "split_policy": {
+    "actual": {
+      "test": 324,
+      "train": 8652,
+      "validation": 323
+    },
+    "family_relations": [
+      "exact_hash",
+      "transposition_invariant_hash"
+    ],
+    "official_train": "train unless connected to official val by exact/transposition hash",
+    "official_val": "content-family-level deterministic 1:1 validation/test split",
+    "rhythm_interval_hash": "audit-only near-duplicate signal",
+    "seed": 20260817,
+    "target_events": {
+      "test": 8247,
+      "train": 450765,
+      "validation": 8247
+    }
+  },
+  "status": "FROZEN_4_4_FIXED_TONAL_FRAME"
+}

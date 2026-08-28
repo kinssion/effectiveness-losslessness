@@ -1,0 +1,50 @@
+{
+  "admitted_song_count": 1747,
+  "key_table": {
+    "duplicate_numeric_song_ids": [],
+    "midi_without_key_label_numeric_ids": [],
+    "orphan_key_label_numeric_ids": [
+      1747
+    ],
+    "row_count": 1748,
+    "unique_numeric_song_ids": 1748
+  },
+  "rejected_song_count": 0,
+  "rejections": [],
+  "source_midi_count": 1747,
+  "split": {
+    "assigned_totals": {
+      "test": {
+        "song_count": 185,
+        "target_event_count": 244248,
+        "window_count": 1979
+      },
+      "train": {
+        "song_count": 1378,
+        "target_event_count": 1825241,
+        "window_count": 18460
+      },
+      "validation": {
+        "song_count": 184,
+        "target_event_count": 242256,
+        "window_count": 2011
+      }
+    },
+    "component_count": 1746,
+    "content_duplicate_song_families": 1,
+    "cross_split_groups": {
+      "exact_hash": 0,
+      "lineage_id": 0,
+      "rhythm_interval_hash_audit_only": 0,
+      "source_song_id": 0,
+      "transposition_invariant_hash": 0
+    },
+    "duplicate_family_counts": {
+      "whole_exact_hash": 0,
+      "whole_transposition_invariant_hash": 1,
+      "window_exact_hash": 0,
+      "window_transposition_invariant_hash": 16
+    },
+    "seed": 20260819
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "accounting": {
+    "denominator": "declared Note/REST facts only",
+    "numerator": "all model target bits including one EOS per evaluated sequence"
+  },
+  "arm_summary": [
+    {
+      "arm": "A",
+      "declared_fact_count": 7923,
+      "eos_target_count": 324,
+      "mean_bits_per_declared_fact": 12.339934429973125,
+      "sample_sd_bits_per_declared_fact": 0.14310652450695321,
+      "seed_values": {
+        "20260814": 12.370886640233147,
+        "20260815": 12.183884686252965,
+        "20260816": 12.465031963433262
+      },
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "declared_fact_count": 7923,
+      "eos_target_count": 324,
+      "mean_bits_per_declared_fact": 12.228547559219846,
+      "sample_sd_bits_per_declared_fact": 0.1807301538000501,
+      "seed_values": {
+        "20260814": 12.343366441053552,
+        "20260815": 12.020221396984802,
+        "20260816": 12.322054839621186
+      },
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    }
+  ],
+  "metric": "base-2 predictive code length per declared Note/REST fact",
+  "paired_comparisons": [
+    {
+      "all_seeds_same_direction": true,
+      "comparison": "D-A",
+      "left_arm": "D",
+      "mean_delta_bits_per_declared_fact": -0.11138687075327762,
+      "right_arm": "A",
+      "sample_sd_delta_bits_per_declared_fact": 0.07336343306413057,
+      "seed_deltas": {
+        "20260814": -0.027520199179594584,
+        "20260815": -0.16366328926816287,
+        "20260816": -0.1429771238120754
+      }
+    }
+  ],
+  "per_run": [
+    {
+      "arm": "A",
+      "checkpoint_sha256": "077c0bf66e60f203344241eb2dc6e90e7a998d462859c74f8a4e46f27962d46a",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.884871450293105,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.370886640233147,
+      "seed": 20260814,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "97dbcbe9c520f9b6294efadd0f0496869e362717660a84fd7ed065859a0369db",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.705216244595881,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.183884686252965,
+      "seed": 20260815,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "43f8d86b96078d1c442a999503cb73fe033cd7f2bc0f2861f9d399d63f7d1adb",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.975318084913512,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.465031963433262,
+      "seed": 20260816,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "6a7094011725e9ea9228ae0cbbe11a2e02642a12608270f1c81d35a3e9256ff7",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.858432437549084,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.343366441053552,
+      "seed": 20260814,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "e6d7d0b1a0baeb4cd0124f3cc71012cdac5a1ada90d958a9422db2cb49dd56b6",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.547982797176013,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.020221396984802,
+      "seed": 20260815,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "b77ea9b42509438062b308dcd873c52faaacb2e2d637c23396488f0885460b51",
+      "declared_fact_count": 7923,
+      "eos_bits_reporting": "included in the model numerator; not separately logged",
+      "eos_target_count": 324,
+      "evaluated_window_count": 324,
+      "model_native_bits_per_target": 11.837958105289035,
+      "model_native_target_count_including_eos": 8247,
+      "paper_bits_per_declared_fact": 12.322054839621186,
+      "seed": 20260816,
+      "side_information_bits_per_window": 0
+    }
+  ],
+  "schema_version": "el.paper_ledger.commu_ad.v1",
+  "source_result": "commu_ad_clean_test_results.json",
+  "source_result_sha256": "10563b4470234ebead50a22e742adc4ff14a95f907f743bbeb0033e135c64220"
+}

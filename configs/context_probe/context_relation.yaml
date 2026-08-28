@@ -1,0 +1,9 @@
+experiment: secondary_context_dependence_probe
+dataset: POP909_latent_windows_r1
+split: test
+held_out_windows: 6112
+held_out_songs: 99
+checkpoint_sha256: 9a7475f975c5f100896b1452d50df8544a37d3e400060d9f20eb6d6093e60260
+interventions: [full, left_replaced, right_replaced, both_replaced]
+primary_metric: same_song_combined_accuracy
+status: artifact_verified_dataset_manifest_missing

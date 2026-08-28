@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="280" viewBox="0 0 620 280">
+<style>.title{font:600 14px sans-serif}.label,.value,.axislabel{font:12px sans-serif}.axis{stroke:#555}.grid{stroke:#d9e2ec}.line{fill:none;stroke:#2864b7;stroke-width:2}.thin{fill:none;stroke-width:1;opacity:.34}.mean{fill:none;stroke-width:2.2}.point{fill:#2864b7}.error{stroke:#667085;stroke-width:1.3}</style>
+<text x="310.0" y="30" text-anchor="middle" class="title">Context-relation intervention on 6,112 held-out windows</text>
+<line x1="30" y1="235" x2="595" y2="235" class="axis"/>
+<polyline points="30,90 218,156 407,162 595,235" class="line"/>
+<line x1="30" y1="90" x2="30" y2="90" class="error"/>
+<line x1="26" y1="90" x2="34" y2="90" class="error"/>
+<line x1="26" y1="90" x2="34" y2="90" class="error"/>
+<circle cx="30" cy="90" r="5" class="point"/>
+<text x="30" y="80" text-anchor="middle" class="value">75.933</text>
+<text x="30" y="255" text-anchor="middle" class="label">full</text>
+<line x1="218" y1="156" x2="218" y2="156" class="error"/>
+<line x1="214" y1="156" x2="222" y2="156" class="error"/>
+<line x1="214" y1="156" x2="222" y2="156" class="error"/>
+<circle cx="218" cy="156" r="5" class="point"/>
+<text x="218" y="146" text-anchor="middle" class="value">64.512</text>
+<text x="218" y="255" text-anchor="middle" class="label">left replaced</text>
+<line x1="407" y1="162" x2="407" y2="162" class="error"/>
+<line x1="403" y1="162" x2="411" y2="162" class="error"/>
+<line x1="403" y1="162" x2="411" y2="162" class="error"/>
+<circle cx="407" cy="162" r="5" class="point"/>
+<text x="407" y="152" text-anchor="middle" class="value">63.563</text>
+<text x="407" y="255" text-anchor="middle" class="label">right replaced</text>
+<line x1="595" y1="235" x2="595" y2="235" class="error"/>
+<line x1="591" y1="235" x2="599" y2="235" class="error"/>
+<line x1="591" y1="235" x2="599" y2="235" class="error"/>
+<circle cx="595" cy="235" r="5" class="point"/>
+<text x="595" y="225" text-anchor="middle" class="value">50.867</text>
+<text x="595" y="255" text-anchor="middle" class="label">both replaced</text>
+</svg>

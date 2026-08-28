@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "commu": {
+      "duplicate_components.jsonl": 9299,
+      "song_split_v1.jsonl": 9299,
+      "source_manifest.jsonl": 9299
+    },
+    "pop1k7": {
+      "duplicate_components.jsonl": 1747,
+      "high_confidence_subset_v1.jsonl": 1263,
+      "key_estimation_v1.csv": 1747,
+      "song_split_v1.jsonl": 1747,
+      "source_manifest.jsonl": 1747,
+      "window_manifest_v1.jsonl": 22450
+    }
+  },
+  "files": {
+    "manifests/commu/duplicate_components.jsonl": "a410da8036ca0ade6e402efe03536c4ff05acd23f0740e3018d32aa7c1cbeb37",
+    "manifests/commu/song_split_v1.jsonl": "e0e7803da3773c41954e474c689d71be5f57c59ee530b4b63662a3e41bafe204",
+    "manifests/commu/source_manifest.jsonl": "cd870c8c2f81465f3165d10e783cb02008666fb4e29bf36009b49597937dcc27",
+    "manifests/context_probe/provenance_status.json": "f1b3aea830cbd22c774fa3f3b90f3db30188731a4678be40c057d1ea7c511902",
+    "manifests/pop1k7/duplicate_components.jsonl": "c237e882c18c8c954d7bbe658ee082cf797810cbccb4c69608857cd888988dc0",
+    "manifests/pop1k7/high_confidence_subset_v1.jsonl": "22cd5d9cda5fed47526964a934606c0bf64f65ab33a485208865f2e2d773ba71",
+    "manifests/pop1k7/key_estimation_v1.csv": "1f3685d7b3865b90c704121081d0c8055c6387b0890efcd29151d94ca4eb4e97",
+    "manifests/pop1k7/song_split_v1.jsonl": "b1fba308e02f1bd9a8e92f1d6f942cfdee8ec646dba91f252451bbbdcb78f3cd",
+    "manifests/pop1k7/source_manifest.jsonl": "73a1f2e211758882555e07c29633cf2f212039879d140b28a9a96e0b6c5f9ea6",
+    "manifests/pop1k7/window_manifest_v1.jsonl": "58ddd58c4faf93ef3ba25ea5a13db1f171d5315896e000a5b22d137c24b39c68",
+    "manifests/redaction_manifest.json": "eeae31712b29434f315c4f661b546101934969f450808b5e264faedd71ff9205"
+  },
+  "schema_version": "el.public_manifest_build.v1",
+  "status": "PASS"
+}

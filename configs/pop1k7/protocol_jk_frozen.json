@@ -1,0 +1,56 @@
+{
+  "schema_version": "m4l.pop1k7_remaining.protocol.v1",
+  "status": "FROZEN_BEFORE_VALIDATION",
+  "paper_update_authorized": false,
+  "base_protocol_path": "configs/pop1k7_primary_abcd/formal_protocol_v1.json",
+  "base_protocol_sha256": "30383e0651ebd8890f78ef2e8692215bb155f3022a4a1abf25b2d2df66341bfc",
+  "data": {
+    "dataset": "pop1k7_4_4_song_split_v1",
+    "manifest_path": "data/manifests/pop1k7_4_4_song_split_v1/split_manifest.json",
+    "manifest_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+    "train_target_events_per_equivalent_epoch": 1825241,
+    "test_rows_must_remain_unloaded": true
+  },
+  "matched_reference": {
+    "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+    "relationship": "same_clean_split_seeds_learner_envelope_budget_and_validation_selection",
+    "checkpoint_initialization": "matched_seed_fresh_initialization_not_D_checkpoint_continuation",
+    "comparison_unit": "total_bits_per_original_exact_musical_event"
+  },
+  "preregistered_seeds": [20260819, 20260820, 20260821],
+  "arms": {
+    "J_LOSSLESS_REMI_LIKE": {
+      "reference": "raw_original_absolute_pitch",
+      "uses_D_time_geometry": false,
+      "grammar": "BAR_ADVANCE POSITION PITCH_or_REST DURATION_BAR DURATION_REMAINDER",
+      "lossless": true
+    },
+    "K_TRAIN_ONLY_LOSSLESS_BPE": {
+      "base_stream": "J_LOSSLESS_REMI_LIKE",
+      "uses_D_time_geometry": false,
+      "target_payload_vocabulary_size": 2048,
+      "fit_split": "train_only",
+      "lossless": true
+    }
+  },
+  "training": {
+    "inherit_from_base_protocol": true,
+    "target_equivalent_epochs": 2000,
+    "target_event_budget": 3650482000,
+    "fixed_budget_no_early_stopping": true,
+    "checkpoint_selection": "validation_only"
+  },
+  "validation_and_checkpointing": {
+    "selection_rule": "minimum_micro_total_validation_bits_per_exact_musical_event",
+    "test_evaluation": "disabled_and_not_loaded",
+    "selection_uses_test": false
+  },
+  "launch": {
+    "required_gate_status": "PASS",
+    "allowed_physical_gpu_ids": [4, 5, 6, 7],
+    "forbidden_physical_gpu_ids": [0, 1, 2, 3],
+    "formal_run_count": 6,
+    "launch_gate_script_path": "tools/run_pop1k7_jk_matched_launch_gate.py",
+    "launch_script_path": "cloud/n56r5_launch_pop1k7_jk_matched_v1.sbatch"
+  }
+}

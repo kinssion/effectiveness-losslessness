@@ -1,0 +1,50 @@
+{
+  "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+  "checkpoint_path": "<REDACTED_ABSOLUTE_PATH>",
+  "checkpoint_sha256": "6a7094011725e9ea9228ae0cbbe11a2e02642a12608270f1c81d35a3e9256ff7",
+  "completed_target_exposures": 2253825,
+  "config_sha256": "06c4a381875f39e94e54dac436ba4e3aa55ffb86efb61d92a833376762d8f638",
+  "elapsed_seconds": 53.13230959896464,
+  "end_time_utc": "2026-08-16T16:14:22.469254+00:00",
+  "hardware": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "cuda_device_name": "NVIDIA GeForce RTX 4090",
+    "cuda_device_queried": true,
+    "declared_physical_gpu_id": 1,
+    "device": "cuda:0",
+    "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+    "python_version": "3.12.3",
+    "torch_version": "2.7.1+cu128"
+  },
+  "manifest_sha256": "f4dc150e3a81f7224f07a69832d9c3e021ef11414beacb0dbb9f1ee4a39ecfdf",
+  "model_parameter_count": {
+    "backbone_parameters": 548544,
+    "decoder_parameters": 207107,
+    "effective_trainable_parameters": 812815,
+    "inactive_parameters": 4292,
+    "representation_parameters_active": 57164,
+    "representation_parameters_total": 61456,
+    "total_parameters": 817107
+  },
+  "protocol_sha256": "baf0c128598742450562e4900625870cab2e54d9dcd8816930bd58e541cc8564",
+  "representation_config": {
+    "absolute_time_lookup": false,
+    "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+    "content_pitch": "raw_id",
+    "fixed_reference_pitch_class": null,
+    "optional_reference": false,
+    "ordinary_sequence_position": false,
+    "pairwise_time_bias": true,
+    "unary_time_geometry": true
+  },
+  "run_id": "commu4x4_d_relational_time_geometry_seed20260814",
+  "schema_version": "m4l.commu_ad_replication.formal_run.v1.receipt",
+  "seed": 20260814,
+  "selected_validation_bits_per_event": 11.994554315508923,
+  "source_tree_sha256": "866e68e232c91b5e5c4666a05cfe3d0e3e80005c0b8f5159c9fdaf91ca8b8d42",
+  "start_time_utc": "2026-08-16T16:13:29.335122+00:00",
+  "status": "FORMAL_TRAINING_COMPLETE",
+  "target_event_budget": 2253825,
+  "tensor_cache_manifest_sha256": "9389bea904946a52feb0b698afd2d3a1661621872c07b02231900906cf6dd93f",
+  "test_reads": 0
+}

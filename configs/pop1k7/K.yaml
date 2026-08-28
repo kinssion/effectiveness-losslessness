@@ -1,0 +1,5 @@
+arm: K
+operation: reversible_carrier_coding
+coordinate_schema: [train_only_lossless_BPE_over_J, same_J_coordinate_grammar]
+side_information_schema: [frozen_merge_table_sha256]
+decoder_schema: [BPE_next_token, EOS, BPE_inverse, J_inverse_to_NOTE_REST]

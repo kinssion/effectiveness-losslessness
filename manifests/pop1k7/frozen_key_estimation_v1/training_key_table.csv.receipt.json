@@ -1,0 +1,12 @@
+{
+  "dataset_key_labels_used": false,
+  "join_rule": "same_release_source_song_id_path_byte_hash_and_note_content_hash",
+  "output": "data/manifests/pop1k7_music21_keys_v1/training_key_table.csv",
+  "output_sha256": "33a532e0979a77dba37446f7bfe0351f9f931b125db1dc67b6e228b0127f8372",
+  "schema_version": "m4l.pop1k7_music21_training_key_table.v1",
+  "selected_high_confidence_rows": 1263,
+  "source_estimates": "data/manifests/pop1k7_music21_keys_v1/key_estimates_high_confidence.jsonl",
+  "source_estimates_sha256": "ba548c3364244e2f7389f1b0b0bc651bf5752c5be2dd74c7dfcd66bf2beae3e6",
+  "source_manifest": "data/manifests/pop1k7_music21_keys_v1/manifest.json",
+  "source_manifest_sha256": "53664a7ef3eed4af690568e16a357a2f88698e7f0a05fe854316b884807534da"
+}

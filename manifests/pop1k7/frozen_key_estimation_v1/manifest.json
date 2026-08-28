@@ -1,0 +1,69 @@
+{
+  "analysis": {
+    "agreement_unit": "relative_major_frame_pitch_class",
+    "library": "music21",
+    "library_version": "10.5.0",
+    "major_minor_relative_pair_is_equivalent": true,
+    "primary": "key.krumhanslschmuckler",
+    "scope": "full_song_all_pitched_notes",
+    "secondary": "key.aardenessen"
+  },
+  "artifacts": {
+    "admitted": "data/manifests/pop1k7_music21_keys_v1/key_estimates_high_confidence.jsonl",
+    "admitted_sha256": "ba548c3364244e2f7389f1b0b0bc651bf5752c5be2dd74c7dfcd66bf2beae3e6",
+    "all": "data/manifests/pop1k7_music21_keys_v1/key_estimates.jsonl",
+    "all_sha256": "3830edfcbef49d621e8e585d6791dc6099fc321e92d198a04225abb9f858f04d",
+    "review_queue": "data/manifests/pop1k7_music21_keys_v1/review_queue.csv",
+    "review_queue_sha256": "a2e7c40546acaf053a1bd64f604c42f2bccd1cd00527f13e0fa0aa504526b438"
+  },
+  "canonicalization": {
+    "model_receives_key_tonic_mode_shift_or_confidence": false,
+    "signed_shift_support": [
+      -5,
+      6
+    ],
+    "target_frame": "C_major_or_A_minor",
+    "target_relative_major_pitch_class": 0
+  },
+  "confidence": {
+    "automatic_admission": "same_frame_and_both_algorithms_pass_thresholds",
+    "minimum_correlation": 0.6,
+    "minimum_distinct_frame_margin": 0.05,
+    "non_admitted_policy": "manual_review_or_exclude"
+  },
+  "config_path": "configs/pop1k7_music21_key_estimation_v1.json",
+  "config_sha256": "810f850c2629a1314ac7adbc874ae18c13619eaef93ca8e6d41fc6674f82f48b",
+  "counts": {
+    "admitted_high_confidence": 1263,
+    "analyzed_pairs": 1747,
+    "estimated_frame_pc": {
+      "0": 191,
+      "1": 98,
+      "10": 106,
+      "11": 75,
+      "2": 141,
+      "3": 149,
+      "4": 116,
+      "5": 149,
+      "6": 79,
+      "7": 150,
+      "8": 107,
+      "9": 121
+    },
+    "review_or_rejected": 484,
+    "source_midis": 1747,
+    "status": {
+      "ADMITTED_HIGH_CONFIDENCE": 1263,
+      "AMBIGUOUS_FRAME_DISAGREEMENT": 265,
+      "REVIEW_LOW_CONFIDENCE": 219
+    }
+  },
+  "manifest_payload_sha256": "9009f5293406cb134375ad975be94b0d399a8f4db04aefdb0f9a73147a2649d5",
+  "schema_version": "m4l.pop1k7_music21_key_estimation.v1",
+  "source": {
+    "dataset_key_labels_read": false,
+    "model_source_root": "data/pop1k7_official/Pop1K7/midi_analyzed",
+    "pairing": "same_release_relative_path_plus_note_content_sha256",
+    "synchronized_root": "data/pop1k7_official/Pop1K7/midi_synchronized"
+  }
+}

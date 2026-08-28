@@ -1,0 +1,33 @@
+{
+  "checkpoint_sha256": {
+    "J:20260819": "b3cd962eb33fc180e1ff456cf4aabc6748383f02308aafe1455dd62619d3e86c",
+    "J:20260820": "154c40cd34810b6e84f59b367ea6e0215dfc37526e306dc0238ba45686945bb8",
+    "J:20260821": "6a7e9639de3a5c971a5fc71fdd2f7360aca1910dcca144c28bb25a622e419c62",
+    "K:20260819": "5e37468a947566b7f5fa37418a852fe694c4d08dcf7a6ad19bcc904a0f1216df",
+    "K:20260820": "8e979ed40d2b305973552c73fc60bc69bc9f109d67ee48514149806949c3b8ee",
+    "K:20260821": "562809681986d08b62cfc0ea45b19dfd1fda004cff9b8c85c9df219413b354bf"
+  },
+  "evaluator_sha256": "885f22c2c7dd6c79eb0e4a7c92370e4a93194cae4b0dc2cd2f67ab81353aebfc",
+  "protocol_sha256": "6d1100c95dddba94ebdb57ca0a27d3a98f8789e779be68ede557ab4e91a18186",
+  "runtime": {
+    "cuda_version": "12.8",
+    "device_capability": [
+      8,
+      9
+    ],
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "loaded_modules": [
+      "local_windows_no_module"
+    ],
+    "python_version": "3.12.13",
+    "slurm_job_id": "LOCAL-CLEAN-TEST-20260827",
+    "slurm_partition": "local_rtx4070ti",
+    "tokenizers_version": "0.22.1",
+    "torch_version": "2.11.0+cu128"
+  },
+  "schema_version": "m4l.pop1k7_jk_clean_test_access.v1",
+  "scientific_retry_allowed": false,
+  "start_time_utc": "2026-08-27T10:29:07.719528+00:00",
+  "status": "TEST_ACCESS_AUTHORIZED_AND_STARTING",
+  "validation_lock_sha256": "78e2eec4e7abdbd48e8410200ec7f8247b9b76a8c32bd54e7cc26cf59278bfa7"
+}

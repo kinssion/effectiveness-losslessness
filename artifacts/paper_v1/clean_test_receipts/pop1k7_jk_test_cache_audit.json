@@ -1,0 +1,28 @@
+{
+  "J": {
+    "cache_manifest_sha256": "5dc9451662564527b812ded8df2ff371477b5518d236e63dc5e01a2c7b5f6d9d",
+    "maximum_payload_tokens": 1575,
+    "original_event_count": 244248,
+    "payload_token_count": 861259,
+    "sample_count": 1979,
+    "serialized_target_count_including_eos": 863238,
+    "serialized_tokens_per_original_event_excluding_eos": 3.52616602797157
+  },
+  "J_and_K_original_event_denominators_identical": true,
+  "K": {
+    "cache_manifest_sha256": "743cf5078716741ddd5bdc29cd0f9892cd9e23b957a5df278d816877b56c1127",
+    "maximum_payload_tokens": 674,
+    "original_event_count": 244248,
+    "payload_token_count": 370594,
+    "sample_count": 1979,
+    "serialized_target_count_including_eos": 372573,
+    "serialized_tokens_per_original_event_excluding_eos": 1.5172857096066292
+  },
+  "K_uses_frozen_train_only_bpe": true,
+  "shared_original": {
+    "original_event_count_including_eos": 244248,
+    "physical_note_or_rest_token_count": 242269,
+    "sample_count": 1979
+  },
+  "test_time_bpe_fit_updates": 0
+}

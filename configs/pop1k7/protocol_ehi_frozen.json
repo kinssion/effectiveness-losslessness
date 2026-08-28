@@ -1,0 +1,52 @@
+{
+  "schema_version": "m4l.pop1k7_remaining.protocol.v1",
+  "status": "FROZEN_BEFORE_FORMAL_VALIDATION",
+  "paper_update_authorized": false,
+  "base_protocol_path": "configs/pop1k7_music21_formal_v1/abcd_protocol_v1.json",
+  "base_protocol_sha256": "f1753d205d6d9099a241d359d09d7e5fa506f2e85db8e40f5f417ac48c8438c4",
+  "data": {
+    "dataset": "pop1k7_4_4_song_split_original_pitch_v1",
+    "manifest_path": "data/manifests/pop1k7_4_4_song_split_v1/split_manifest.json",
+    "manifest_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+    "tensor_cache_path": "artifacts/pop1k7_music21_formal_v1/tensor_cache_full_original_direct_v1",
+    "tensor_cache_manifest_sha256": "54cafadddfb0b4158ce8a706abd664d7573720dc6c2289336626847554b018fc",
+    "train_target_events_per_equivalent_epoch": 1825241,
+    "test_rows_must_remain_unloaded": true
+  },
+  "preregistered_seeds": [20260819, 20260820, 20260821],
+  "arms": {
+    "ARM_E_FULL_COORDINATE": {
+      "reference": "D",
+      "pitch_interface": "fixed_chromatic_circle_plus_absolute_register",
+      "unary_time_geometry": true,
+      "pairwise_time_bias": true
+    },
+    "ARM_H_FACTORIZED_PITCH_ID": {
+      "reference": "D",
+      "pitch_interface": "learned_absolute_pc_plus_absolute_register"
+    },
+    "ARM_I_FIFTHS_CIRCLE_PITCH": {
+      "reference": "D",
+      "pitch_interface": "fixed_fifths_circle_plus_absolute_register"
+    }
+  },
+  "training": {
+    "inherit_from_base_protocol": true,
+    "target_equivalent_epochs": 2000,
+    "target_event_budget": 3650482000,
+    "fixed_budget_no_early_stopping": true,
+    "checkpoint_selection": "validation_only"
+  },
+  "validation_and_checkpointing": {
+    "selection_rule": "minimum_micro_total_validation_bits_per_exact_musical_event",
+    "test_evaluation": "disabled_and_not_loaded",
+    "selection_uses_test": false
+  },
+  "launch": {
+    "required_gate_status": "PASS",
+    "allowed_physical_gpu_ids": [0, 1, 2, 3, 4, 5, 6, 7],
+    "forbidden_physical_gpu_ids": [],
+    "formal_run_count": 9,
+    "launch_script_path": "cloud/n56r5_pop1k7_music21_formal_lane.sbatch"
+  }
+}

@@ -1,0 +1,4 @@
+arm: E
+operation: relational_excess_control
+coordinate_schema: [directed_multiscale_unary_time, deterministic_pairwise_temporal_bias, fixed_chromatic_phase, absolute_register, duration]
+side_information_schema: []

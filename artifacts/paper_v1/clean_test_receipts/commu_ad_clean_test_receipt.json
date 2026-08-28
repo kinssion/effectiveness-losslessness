@@ -1,0 +1,11 @@
+{
+  "checkpoint_count": 6,
+  "checkpoint_selection_changed_after_test": false,
+  "manifest_sha256": "f4dc150e3a81f7224f07a69832d9c3e021ef11414beacb0dbb9f1ee4a39ecfdf",
+  "protocol_sha256": "baf0c128598742450562e4900625870cab2e54d9dcd8816930bd58e541cc8564",
+  "results_sha256": "10563b4470234ebead50a22e742adc4ff14a95f907f743bbeb0033e135c64220",
+  "schema_version": "m4l.commu_ad_replication.clean_test.v1.receipt",
+  "status": "COMPLETE",
+  "test_reads": 1,
+  "test_row_file_reads": 1
+}

@@ -1,0 +1,240 @@
+{
+  "accounting": {
+    "denominator": "declared Note/REST facts only",
+    "numerator": "complete arm-specific numerator including one EOS per evaluated window",
+    "technical_continuation": "used only the verified frozen cache; no source MIDI or test manifest reopen"
+  },
+  "arm_summary": [
+    {
+      "arm": "D",
+      "declared_fact_count": 242269,
+      "eos_target_count": 1979,
+      "mean_bits_per_declared_fact": 6.2680929492472295,
+      "sample_sd_bits_per_declared_fact": 0.013613241354482478,
+      "seed_values": {
+        "20260819": 6.282077803739924,
+        "20260820": 6.267316487234779,
+        "20260821": 6.254884556766985
+      },
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "J",
+      "declared_fact_count": 242269,
+      "eos_target_count": 1979,
+      "mean_bits_per_declared_fact": 5.963053681364638,
+      "sample_sd_bits_per_declared_fact": 0.10235324247490526,
+      "seed_values": {
+        "20260819": 5.885997689997567,
+        "20260820": 5.923973901078524,
+        "20260821": 6.079189453017822
+      },
+      "serialized_targets_per_declared_fact": 3.563138494813616,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "K",
+      "declared_fact_count": 242269,
+      "eos_target_count": 1979,
+      "mean_bits_per_declared_fact": 6.773668209606095,
+      "sample_sd_bits_per_declared_fact": 0.05642671199795487,
+      "seed_values": {
+        "20260819": 6.837948048051831,
+        "20260820": 6.750750578816294,
+        "20260821": 6.7323060019501595
+      },
+      "serialized_targets_per_declared_fact": 1.5378484246849575,
+      "side_information_bits_per_window": 0
+    }
+  ],
+  "metric": "base-2 predictive code length per declared Note/REST fact",
+  "paired_comparisons": [
+    {
+      "all_seeds_same_direction": true,
+      "comparison": "K-J",
+      "left_arm": "K",
+      "mean_delta_bits_per_declared_fact": 0.810614528241457,
+      "right_arm": "J",
+      "sample_sd_delta_bits_per_declared_fact": 0.15007105875496382,
+      "seed_deltas": {
+        "20260819": 0.9519503580542636,
+        "20260820": 0.8267766777377696,
+        "20260821": 0.6531165489323376
+      }
+    },
+    {
+      "all_seeds_same_direction": true,
+      "comparison": "J-D",
+      "left_arm": "J",
+      "mean_delta_bits_per_declared_fact": -0.3050392678825915,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_declared_fact": 0.11507713196158972,
+      "seed_deltas": {
+        "20260819": -0.3960801137423564,
+        "20260820": -0.3433425861562549,
+        "20260821": -0.1756951037491632
+      }
+    },
+    {
+      "all_seeds_same_direction": true,
+      "comparison": "K-D",
+      "left_arm": "K",
+      "mean_delta_bits_per_declared_fact": 0.5055752603588655,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_declared_fact": 0.04366036002262711,
+      "seed_deltas": {
+        "20260819": 0.5558702443119072,
+        "20260820": 0.48343409158151474,
+        "20260821": 0.4774214451831744
+      }
+    }
+  ],
+  "per_run": [
+    {
+      "arm": "D",
+      "checkpoint_sha256": "3aeb7b28982bd00bb7e93f8ffe807bf61bfda9d348c1b87515df23a0bf5ca70b",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.231177767819051,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.282077803739924,
+      "seed": 20260819,
+      "serialized_target_count_including_eos": null,
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "89b3fbc7ecf147cceee7a2903fac3f5e447cde73e267240f727684f8cb8b4b54",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.216536053707227,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.267316487234779,
+      "seed": 20260820,
+      "serialized_target_count_including_eos": null,
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "c049c7b62372a7ad609ef435daaa85a9d98d17db6aebb9dc05695b9a54b92419",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.204204851967593,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.254884556766985,
+      "seed": 20260821,
+      "serialized_target_count_including_eos": null,
+      "serialized_targets_per_declared_fact": null,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "J",
+      "checkpoint_sha256": "b3cd962eb33fc180e1ff456cf4aabc6748383f02308aafe1455dd62619d3e86c",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 5.8383068617062195,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 5.885997689997567,
+      "seed": 20260819,
+      "serialized_target_count_including_eos": 863238,
+      "serialized_targets_per_declared_fact": 3.563138494813616,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "J",
+      "checkpoint_sha256": "154c40cd34810b6e84f59b367ea6e0215dfc37526e306dc0238ba45686945bb8",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 5.875975373556356,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 5.923973901078524,
+      "seed": 20260820,
+      "serialized_target_count_including_eos": 863238,
+      "serialized_targets_per_declared_fact": 3.563138494813616,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "J",
+      "checkpoint_sha256": "6a7e9639de3a5c971a5fc71fdd2f7360aca1910dcca144c28bb25a622e419c62",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.029933303827154,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.079189453017822,
+      "seed": 20260821,
+      "serialized_target_count_including_eos": 863238,
+      "serialized_targets_per_declared_fact": 3.563138494813616,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "K",
+      "checkpoint_sha256": "5e37468a947566b7f5fa37418a852fe694c4d08dcf7a6ad19bcc904a0f1216df",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.782544117673304,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.837948048051831,
+      "seed": 20260819,
+      "serialized_target_count_including_eos": 372573,
+      "serialized_targets_per_declared_fact": 1.5378484246849575,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "K",
+      "checkpoint_sha256": "8e979ed40d2b305973552c73fc60bc69bc9f109d67ee48514149806949c3b8ee",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.696053158999233,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.750750578816294,
+      "seed": 20260820,
+      "serialized_target_count_including_eos": 372573,
+      "serialized_targets_per_declared_fact": 1.5378484246849575,
+      "side_information_bits_per_window": 0
+    },
+    {
+      "arm": "K",
+      "checkpoint_sha256": "562809681986d08b62cfc0ea45b19dfd1fda004cff9b8c85c9df219413b354bf",
+      "declared_fact_count": 242269,
+      "eos_bits_reporting": "included in the complete arm-specific numerator; not separately logged",
+      "eos_target_count": 1979,
+      "evaluated_window_count": 1979,
+      "model_native_bits_per_original_event_or_eos": 6.67775802785064,
+      "model_native_target_count_including_eos": 244248,
+      "paper_bits_per_declared_fact": 6.7323060019501595,
+      "seed": 20260821,
+      "serialized_target_count_including_eos": 372573,
+      "serialized_targets_per_declared_fact": 1.5378484246849575,
+      "side_information_bits_per_window": 0
+    }
+  ],
+  "schema_version": "el.paper_ledger.pop1k7_jk.v1",
+  "source_result": "pop1k7_jk_clean_test_results.json",
+  "source_result_sha256": "0998ad62dfa12d92d753290febade5781330029ce6d5f4cf0f36a1fcb7fd4c6c",
+  "test_access": {
+    "checkpoint_updates": 0,
+    "status": "ONE_SHOT_CLEAN_TEST_COMPLETE_AFTER_TECHNICAL_CONTINUATION",
+    "test_manifest_accessor_calls": 1,
+    "test_row_file_reads": 1,
+    "test_time_bpe_fit_updates": 0
+  }
+}

@@ -1,0 +1,4 @@
+arm: G
+operation: coordinate_gain
+coordinate_schema: [directed_multiscale_unary_time, deterministic_pairwise_temporal_bias, type, canonicalized_pitch, duration]
+side_information_schema: [signed_whole_song_transposition_shift, conservative_four_bit_code_per_window]

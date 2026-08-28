@@ -1,0 +1,317 @@
+{
+  "accounting": {
+    "denominator": "declared Note/REST facts",
+    "full_validation_rebase": 1.0083706216570585,
+    "g_side_bits_per_fact": 0.03378811464151635,
+    "numerator": "all predictive bits including EOS",
+    "subset_validation_rebase": 1.008447028660379
+  },
+  "arms": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I"
+  ],
+  "display_min_target_equivalent_epoch": 100.0,
+  "figure_purpose": "appendix exposure-matched validation learning dynamics",
+  "freeze_manifest": "artifacts/pop1k7_music21_formal_v1/remote_freeze_bundle/pop1k7_music21_formal_freeze_v1/formal_checkpoint_manifest.json",
+  "freeze_manifest_sha256": "b2e8ba77c2674c6b16ea95e5343aa1e72984c08e291d7faf77dfc98d6ac6a025",
+  "maximum_target_equivalent_epoch": 2000.0,
+  "observation_count": 9585,
+  "omitted_region": "0--100 target-equivalent epochs (initial transient; source rows retained in CSV)",
+  "outputs": {
+    "paper/iclr2027_submission_compact_v3/figures/formal_learning_dynamics.pdf": {
+      "bytes": 126001,
+      "sha256": "df9b404b13b29a28d5f2a4fd6db4eb36cd8e7a4bb80f84f24ff9d8c881f8ebb4"
+    },
+    "paper/iclr2027_submission_compact_v3/figures/formal_learning_dynamics.png": {
+      "bytes": 516526,
+      "sha256": "c0e413abec4bf95e2c6eeab702961604007ef1cf6c7e7d55455e78c7264b80a5"
+    }
+  },
+  "seeds": [
+    20260819,
+    20260820,
+    20260821
+  ],
+  "selected_checkpoints": [
+    {
+      "arm": "A",
+      "checkpoint_sha256": "175deadbf4a4e56c6657e5971c6217b2cd1d18063d02ea4098b5a023383d3b71",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1650.0,
+      "selected_target_exposure": 3011647650,
+      "validation_bits_per_declared_fact": 6.983141333219426,
+      "validation_bits_per_exact_event": 6.9251733273863225
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "00a54302abd17e05bd1972002c9e99aed16064dfda8c523e0d5994cc8afb2974",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1640.0,
+      "selected_target_exposure": 2993395240,
+      "validation_bits_per_declared_fact": 6.963206008644671,
+      "validation_bits_per_exact_event": 6.905403488651835
+    },
+    {
+      "arm": "A",
+      "checkpoint_sha256": "e911924fa1b566a17f80aaa4531576605397be7848f34e627dd35b36e89763d6",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1930.0,
+      "selected_target_exposure": 3522715130,
+      "validation_bits_per_declared_fact": 6.9955799732595105,
+      "validation_bits_per_exact_event": 6.937508712583924
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "5c5e47e568c3dfa605b756dde850e3a00b4ceefc2877e286c60131f65f631edc",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1980.0,
+      "selected_target_exposure": 3613977180,
+      "validation_bits_per_declared_fact": 6.3573787958486765,
+      "validation_bits_per_exact_event": 6.304605329934718
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "e7b06f081782a03865b0ed3b89c2de71c8d8a9894eb56448c016c8525dcc7151",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1960.0,
+      "selected_target_exposure": 3577472360,
+      "validation_bits_per_declared_fact": 6.3142895104638885,
+      "validation_bits_per_exact_event": 6.261873734567551
+    },
+    {
+      "arm": "B",
+      "checkpoint_sha256": "edf9bce9aabfe50357bfb6131b33ae1116f1e0575b1bd72e12a5f355c7ffdba8",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1980.0,
+      "selected_target_exposure": 3613977180,
+      "validation_bits_per_declared_fact": 6.30391257724992,
+      "validation_bits_per_exact_event": 6.251582941687335
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "22401065eb560a01c209459d428adeac852b4b80dc33ad60fde9473e56ae7bf4",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1890.0,
+      "selected_target_exposure": 3449705490,
+      "validation_bits_per_declared_fact": 6.2426416837096435,
+      "validation_bits_per_exact_event": 6.1908206661664655
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "ce10bd9ea1da07d32e0b28eee5459b9b0d919f1aff024e3e5c0a7ef3fc29fad4",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1890.0,
+      "selected_target_exposure": 3449705490,
+      "validation_bits_per_declared_fact": 6.275716834912124,
+      "validation_bits_per_exact_event": 6.223621256040978
+    },
+    {
+      "arm": "C",
+      "checkpoint_sha256": "7f204e74be9b442bd014d99155a1b7472fd858348275683bb985046ff1dc47a7",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1980.0,
+      "selected_target_exposure": 3613977180,
+      "validation_bits_per_declared_fact": 6.183522081838793,
+      "validation_bits_per_exact_event": 6.132191824150323
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "3aeb7b28982bd00bb7e93f8ffe807bf61bfda9d348c1b87515df23a0bf5ca70b",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1710.0,
+      "selected_target_exposure": 3121162110,
+      "validation_bits_per_declared_fact": 6.176084992662575,
+      "validation_bits_per_exact_event": 6.124816471262714
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "89b3fbc7ecf147cceee7a2903fac3f5e447cde73e267240f727684f8cb8b4b54",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1640.0,
+      "selected_target_exposure": 2993395240,
+      "validation_bits_per_declared_fact": 6.16998804165638,
+      "validation_bits_per_exact_event": 6.118770131875936
+    },
+    {
+      "arm": "D",
+      "checkpoint_sha256": "c049c7b62372a7ad609ef435daaa85a9d98d17db6aebb9dc05695b9a54b92419",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1810.0,
+      "selected_target_exposure": 3303686210,
+      "validation_bits_per_declared_fact": 6.162494824604639,
+      "validation_bits_per_exact_event": 6.111339117037933
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "280dc3c32ececf1747fb2a4ddd5be224d038669da05e4feda47c25d6913435b2",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1710.0,
+      "selected_target_exposure": 3121162110,
+      "validation_bits_per_declared_fact": 6.188864683271238,
+      "validation_bits_per_exact_event": 6.137490075921746
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "46ea23a4d37918e64819b14879ad115acc63279626ac56635a995c07f7a71f22",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1420.0,
+      "selected_target_exposure": 2591842220,
+      "validation_bits_per_declared_fact": 6.148786599024701,
+      "validation_bits_per_exact_event": 6.097744685302693
+    },
+    {
+      "arm": "E",
+      "checkpoint_sha256": "d1dca7d30f787dca7ee717a7ac24d26da0f89c1936acd4b5ff88feb07c34f240",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1900.0,
+      "selected_target_exposure": 3467957900,
+      "validation_bits_per_declared_fact": 6.2171580758183715,
+      "validation_bits_per_exact_event": 6.165548601169773
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "93a86ae6854c7a2e38a6a0bec4da1ec14011b815df777f8af50b4677e27d3bd0",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1570.0,
+      "selected_target_exposure": 2091577550,
+      "validation_bits_per_declared_fact": 6.532731478841861,
+      "validation_bits_per_exact_event": 6.478011529787481
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "8d64b35475e3a530c279582530d14261b273ee48c204a951623b7006b6f16669",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1420.0,
+      "selected_target_exposure": 1891745300,
+      "validation_bits_per_declared_fact": 6.531566619891065,
+      "validation_bits_per_exact_event": 6.476856428014467
+    },
+    {
+      "arm": "F",
+      "checkpoint_sha256": "3c8064edc90af5a0c33e79e318b4e6456ac1ce7f3bc0ac6917c349c974827d05",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1390.0,
+      "selected_target_exposure": 1851778850,
+      "validation_bits_per_declared_fact": 6.517499807856642,
+      "validation_bits_per_exact_event": 6.462907443452422
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "227cb2f08ac69f1da746fa1784bc19812e44b35fa3ca17132f068f8a4ac3e96b",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1290.0,
+      "selected_target_exposure": 1718557350,
+      "validation_bits_per_declared_fact": 6.447228306442348,
+      "validation_bits_per_exact_event": 6.359719459256522
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "09374d66b764e17e7c6540bb7cbf72b5fdb1f134a73039a3904c5d9b69bcab13",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1420.0,
+      "selected_target_exposure": 1891745300,
+      "validation_bits_per_declared_fact": 6.417753435647499,
+      "validation_bits_per_exact_event": 6.330491478056554
+    },
+    {
+      "arm": "G",
+      "checkpoint_sha256": "2214ab1dd06c8d7b927ee89ef859fde65bd71ff9e5a1f83425d00632ef70c515",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1280.0,
+      "selected_target_exposure": 1705235200,
+      "validation_bits_per_declared_fact": 6.4270916494360035,
+      "validation_bits_per_exact_event": 6.339751472407382
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "fc3e12d9ea29c41d2f53580114f5b0d9d53f5abb06176da388cb76281e3e7aa9",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1620.0,
+      "selected_target_exposure": 2956890420,
+      "validation_bits_per_declared_fact": 6.133916423781523,
+      "validation_bits_per_exact_event": 6.08299794940638
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "dd056f79427576ebd16fd88e7874f082a610241b9742f9b67efd63849e43af7a",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1640.0,
+      "selected_target_exposure": 2993395240,
+      "validation_bits_per_declared_fact": 6.114871498005052,
+      "validation_bits_per_exact_event": 6.064111118148668
+    },
+    {
+      "arm": "H",
+      "checkpoint_sha256": "926db16b5b301e58edcd6e406fc07ef59d5a408c5bdbdb6668055460487d0997",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1810.0,
+      "selected_target_exposure": 3303686210,
+      "validation_bits_per_declared_fact": 6.154045820055212,
+      "validation_bits_per_exact_event": 6.102960248824237
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "55c418ed9bd8fee18050db3344e1553c7075d74a117af207a9b36ed5bb0b36ea",
+      "seed": 20260819,
+      "selected_target_equivalent_epoch": 1850.0,
+      "selected_target_exposure": 3376695850,
+      "validation_bits_per_declared_fact": 6.2640939508818825,
+      "validation_bits_per_exact_event": 6.212094855151649
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "6ae995e99714f2ade01aaf8d32920126d089aeab9d1159998e2408a4c4adbcff",
+      "seed": 20260820,
+      "selected_target_equivalent_epoch": 1640.0,
+      "selected_target_exposure": 2993395240,
+      "validation_bits_per_declared_fact": 6.259244195309599,
+      "validation_bits_per_exact_event": 6.207285358059881
+    },
+    {
+      "arm": "I",
+      "checkpoint_sha256": "14ef0cbc58a885ca8fc3084a84851d5eccfcfd15b1ab37a4beb370f6a2f576ca",
+      "seed": 20260821,
+      "selected_target_equivalent_epoch": 1930.0,
+      "selected_target_exposure": 3522715130,
+      "validation_bits_per_declared_fact": 6.203591071319775,
+      "validation_bits_per_exact_event": 6.1520942182204745
+    }
+  ],
+  "source_history_sha256": {
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_A/seed_20260819/validation_history.json": "c2e6f88e636f34dd72f93082a781b64d22c8b8ec9ce74755ef19c6e7c2b9bf0a",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_A/seed_20260820/validation_history.json": "5ff73955ec4136ef78d43f022cf24ca5126883ce68fdeedec1bb4b52f44c97b0",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_A/seed_20260821/validation_history.json": "1144eb373fb7c942189a1fc5ff906940448792817a1bbeaf541b82e865b14499",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_B/seed_20260819/validation_history.json": "e97c0b7a74bf778e77ebf844bbd16dc534535965668062e9e884cc1430789a96",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_B/seed_20260820/validation_history.json": "13682f29b873548f611906faa3aa5feca5880ad49ad5b72fa03b0f063af294fd",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_B/seed_20260821/validation_history.json": "3b7023545bc522fdbb343282518d02754e66e5ad48fc4899d00f55d319b3c80e",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_C/seed_20260819/validation_history.json": "95920cf1a3cb7a4817ae806db12ba31ff19daeb4775390ed2f4603331ce7df04",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_C/seed_20260820/validation_history.json": "2059eea317beb11af9f81221b1a2008513d47567f00488e2cd7ee0d7113ecede",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_C/seed_20260821/validation_history.json": "1b6ff3507af5f4bbec7aaa83e5dddf9b8856b379a79885170e99441a50a819b3",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_D/seed_20260819/validation_history.json": "2f8820ba83f716c1352c0b6155c90584bb9673862bdc95557795486cec63436f",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_D/seed_20260820/validation_history.json": "09c506cfe4109d92c108c5ba2043ad02d60eedfa25120dcc57330dd33cbe40e6",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_D/seed_20260821/validation_history.json": "bb8a254a631a16d77b9bf346e9706ab1e06163ceda1d4934955c0cdf4e7d1c71",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_E/seed_20260819/validation_history.json": "b1a28fd8aafdb07fa569f6040f0d7e22a7223baf3d7c6b9e5fe94b61827fd9cd",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_E/seed_20260820/validation_history.json": "284fc3c1918eef1b79f93fac5d44aaef06094057f6c60e2e1ce60c9d18d52c06",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_E/seed_20260821/validation_history.json": "6e8602cf0cb1a8106d35ca36ac4031a93402d247d1edb0212297b87a512e2711",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_F/seed_20260819/validation_history.json": "dee74725ce0485907e56e29125a5843bc06fd0eb806242d54e5f49a62e6d2e6b",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_F/seed_20260820/validation_history.json": "a8803f0172e294ffb7250ffa471030bd545a55612086852f66e0ee22d96cfac0",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_F/seed_20260821/validation_history.json": "f50408e2967e11c5339086b10ff8801c34ec069bbc4c2e8ed9dce3584a14f21c",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_G/seed_20260819/validation_history.json": "a0df4b5d6938a1e40c31f94ef415a522b8aff42deb818972eb9f7a2cc48d916b",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_G/seed_20260820/validation_history.json": "aa20014a33991375c77db304cf47a2b3d8fe8463435f661ecffe1cb0d2f220bd",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_G/seed_20260821/validation_history.json": "44ea94bd0d02df1a485a062ac30c76975233e7334da76209c552a932b60a3fdd",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_H/seed_20260819/validation_history.json": "0b9668cb337dd98453c68398c11bb624bb4eb1d22be4da762357246081442359",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_H/seed_20260820/validation_history.json": "13be4d587392fccb44ed7639b364bb028b26424e0e07e7ad07623cb771ea3cd8",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_H/seed_20260821/validation_history.json": "e5d4226c98eee11ce440ad0d3a7930fe2ab7ccd9bf07d4dd494001805f431593",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_I/seed_20260819/validation_history.json": "31548c1dd93f2e77701bcc7d4cc165dd14747a7071c28aafccdafc594e54ce3d",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_I/seed_20260820/validation_history.json": "8a0761036d8f860d9665cca236f030f4c5bdc7d889190f3c919144d13ad50897",
+    "artifacts/pop1k7_music21_formal_v1/training_histories_v1/ARM_I/seed_20260821/validation_history.json": "45c9a774bbc6b8f3a9319ea2bd0a36f32f96725cd5fe64486c9ca4b5e2ce694c"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,326 @@
+{
+  "arm_summary": [
+    {
+      "arm": "D",
+      "arm_name": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "mean_test_bits_per_exact_event": 6.217306224497957,
+      "sample_sd_test_bits_per_exact_event": 0.01350294114878766,
+      "seed_values": {
+        "20260819": 6.231177767819051,
+        "20260820": 6.216536053707227,
+        "20260821": 6.204204851967593
+      }
+    },
+    {
+      "arm": "J",
+      "arm_name": "J_LOSSLESS_REMI_LIKE",
+      "mean_test_bits_per_exact_event": 5.91473851302991,
+      "sample_sd_test_bits_per_exact_event": 0.1015239334657924,
+      "seed_values": {
+        "20260819": 5.8383068617062195,
+        "20260820": 5.875975373556356,
+        "20260821": 6.029933303827154
+      }
+    },
+    {
+      "arm": "K",
+      "arm_name": "K_TRAIN_ONLY_LOSSLESS_BPE",
+      "mean_test_bits_per_exact_event": 6.718785101507726,
+      "sample_sd_test_bits_per_exact_event": 0.055969519050442895,
+      "seed_values": {
+        "20260819": 6.782544117673304,
+        "20260820": 6.696053158999233,
+        "20260821": 6.67775802785064
+      }
+    }
+  ],
+  "checkpoint_updates": 0,
+  "content_sha256": "ca564cb2e19515ead48b51d14cd0003cf08f0f1dbcaf3a0ca9a21bfaa07929af",
+  "d_clean_test_reference_sha256": "d65f94a2f3cfef25a25fc3f610b49dbed277a4c81602022c6e6663c8a26d5a54",
+  "paired_comparisons": [
+    {
+      "all_three_same_direction": true,
+      "comparison": "K-J",
+      "left_arm": "K",
+      "mean_delta_bits_per_event": 0.8040465884778157,
+      "right_arm": "J",
+      "sample_sd_delta_bits_per_event": 0.14885511993345465,
+      "seed_deltas": {
+        "20260819": 0.9442372559670842,
+        "20260820": 0.8200777854428773,
+        "20260821": 0.6478247240234856
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "J-D",
+      "left_arm": "J",
+      "mean_delta_bits_per_event": -0.30256771146804695,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_event": 0.11414472864957916,
+      "seed_deltas": {
+        "20260819": -0.39287090611283126,
+        "20260820": -0.3405606801508707,
+        "20260821": -0.17427154814043888
+      }
+    },
+    {
+      "all_three_same_direction": true,
+      "comparison": "K-D",
+      "left_arm": "K",
+      "mean_delta_bits_per_event": 0.5014788770097688,
+      "right_arm": "D",
+      "sample_sd_delta_bits_per_event": 0.04330660542695102,
+      "seed_deltas": {
+        "20260819": 0.5513663498542529,
+        "20260820": 0.47951710529200664,
+        "20260821": 0.4735531758830467
+      }
+    }
+  ],
+  "per_run": [
+    {
+      "arm": "D",
+      "arm_name": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "3aeb7b28982bd00bb7e93f8ffe807bf61bfda9d348c1b87515df23a0bf5ca70b",
+      "evaluated_original_event_count": 244248,
+      "evaluated_song_count": 1979,
+      "reference_result_sha256": "d65f94a2f3cfef25a25fc3f610b49dbed277a4c81602022c6e6663c8a26d5a54",
+      "reference_source": "<REDACTED_ABSOLUTE_PATH>",
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.124816471262714,
+      "test_bits_per_exact_event": 6.231177767819051
+    },
+    {
+      "arm": "D",
+      "arm_name": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "89b3fbc7ecf147cceee7a2903fac3f5e447cde73e267240f727684f8cb8b4b54",
+      "evaluated_original_event_count": 244248,
+      "evaluated_song_count": 1979,
+      "reference_result_sha256": "d65f94a2f3cfef25a25fc3f610b49dbed277a4c81602022c6e6663c8a26d5a54",
+      "reference_source": "<REDACTED_ABSOLUTE_PATH>",
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.118770131875936,
+      "test_bits_per_exact_event": 6.216536053707227
+    },
+    {
+      "arm": "D",
+      "arm_name": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "c049c7b62372a7ad609ef435daaa85a9d98d17db6aebb9dc05695b9a54b92419",
+      "evaluated_original_event_count": 244248,
+      "evaluated_song_count": 1979,
+      "reference_result_sha256": "d65f94a2f3cfef25a25fc3f610b49dbed277a4c81602022c6e6663c8a26d5a54",
+      "reference_source": "<REDACTED_ABSOLUTE_PATH>",
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.111339117037933,
+      "test_bits_per_exact_event": 6.204204851967593
+    },
+    {
+      "arm": "J",
+      "arm_name": "J_LOSSLESS_REMI_LIKE",
+      "checkpoint_sha256": "b3cd962eb33fc180e1ff456cf4aabc6748383f02308aafe1455dd62619d3e86c",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 863238,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "completed_before_technical_continuation",
+      "missing_runtime_diagnostics": [
+        "throughput_original_events_per_second",
+        "throughput_serialized_tokens_per_second",
+        "peak_memory_bytes"
+      ],
+      "nll_nats_per_serialized_token_diagnostic_only": 1.1450194006050214,
+      "peak_memory_bytes": null,
+      "per_song_metrics_path": "per_song/J/seed_20260819.jsonl",
+      "per_song_metrics_sha256": "c9b4a4afd90238326eb63f01a6d0e078886f1422a28086533403b38f1b95dca2",
+      "per_song_reconstructed_test_bits_per_exact_event": 5.83830686170622,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 5.750729807021616,
+      "serialized_tokens_per_original_event_diagnostic_only": 3.534268448462219,
+      "test_bits_per_exact_event": 5.8383068617062195,
+      "throughput_original_events_per_second": null,
+      "throughput_serialized_tokens_per_second": null
+    },
+    {
+      "arm": "J",
+      "arm_name": "J_LOSSLESS_REMI_LIKE",
+      "checkpoint_sha256": "154c40cd34810b6e84f59b367ea6e0215dfc37526e306dc0238ba45686945bb8",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 863238,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "evaluated_from_verified_cache_during_technical_continuation",
+      "nll_nats_per_serialized_token_diagnostic_only": 1.152407017919765,
+      "peak_memory_bytes": 1919363072,
+      "per_song_metrics_path": "per_song/J/seed_20260820.jsonl",
+      "per_song_metrics_sha256": "8d953b13d0ef04cb7034cfdaec9adff379dafe13eecd91493d86b3848ccf276d",
+      "per_song_reconstructed_test_bits_per_exact_event": 5.875975373556356,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 5.79502411742428,
+      "serialized_tokens_per_original_event_diagnostic_only": 3.534268448462219,
+      "test_bits_per_exact_event": 5.875975373556356,
+      "throughput_original_events_per_second": 68455.23177564246,
+      "throughput_serialized_tokens_per_second": 241939.16579682147
+    },
+    {
+      "arm": "J",
+      "arm_name": "J_LOSSLESS_REMI_LIKE",
+      "checkpoint_sha256": "6a7e9639de3a5c971a5fc71fdd2f7360aca1910dcca144c28bb25a622e419c62",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 863238,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "evaluated_from_verified_cache_during_technical_continuation",
+      "nll_nats_per_serialized_token_diagnostic_only": 1.182601528282576,
+      "peak_memory_bytes": 1919363072,
+      "per_song_metrics_path": "per_song/J/seed_20260821.jsonl",
+      "per_song_metrics_sha256": "936ea043141b99af4c560c14b152bbb158dc4beb872b509322e9cda3fdd22adb",
+      "per_song_reconstructed_test_bits_per_exact_event": 6.029933303827155,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 5.928258094335127,
+      "serialized_tokens_per_original_event_diagnostic_only": 3.534268448462219,
+      "test_bits_per_exact_event": 6.029933303827154,
+      "throughput_original_events_per_second": 43121.52238844086,
+      "throughput_serialized_tokens_per_second": 152403.03602712372
+    },
+    {
+      "arm": "K",
+      "arm_name": "K_TRAIN_ONLY_LOSSLESS_BPE",
+      "checkpoint_sha256": "5e37468a947566b7f5fa37418a852fe694c4d08dcf7a6ad19bcc904a0f1216df",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 372573,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "evaluated_from_verified_cache_during_technical_continuation",
+      "nll_nats_per_serialized_token_diagnostic_only": 3.0820361319376977,
+      "peak_memory_bytes": 225755648,
+      "per_song_metrics_path": "per_song/K/seed_20260819.jsonl",
+      "per_song_metrics_sha256": "d05e327bc2b55aa180853008e3ffed7e8eba770ca67fc0c587d930da8830bc3e",
+      "per_song_reconstructed_test_bits_per_exact_event": 6.782544117673305,
+      "seed": 20260819,
+      "selected_validation_bits_per_exact_event": 6.671313272013931,
+      "serialized_tokens_per_original_event_diagnostic_only": 1.5253881300972782,
+      "test_bits_per_exact_event": 6.782544117673304,
+      "throughput_original_events_per_second": 168667.8397897322,
+      "throughput_serialized_tokens_per_second": 257283.92074440693
+    },
+    {
+      "arm": "K",
+      "arm_name": "K_TRAIN_ONLY_LOSSLESS_BPE",
+      "checkpoint_sha256": "8e979ed40d2b305973552c73fc60bc69bc9f109d67ee48514149806949c3b8ee",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 372573,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "evaluated_from_verified_cache_during_technical_continuation",
+      "nll_nats_per_serialized_token_diagnostic_only": 3.0427340271382874,
+      "peak_memory_bytes": 225755648,
+      "per_song_metrics_path": "per_song/K/seed_20260820.jsonl",
+      "per_song_metrics_sha256": "4fe16472c1c10893e16c263558277a6ae38b066d731c6d1ace134e7220abf6d7",
+      "per_song_reconstructed_test_bits_per_exact_event": 6.6960531589992325,
+      "seed": 20260820,
+      "selected_validation_bits_per_exact_event": 6.582400575556761,
+      "serialized_tokens_per_original_event_diagnostic_only": 1.5253881300972782,
+      "test_bits_per_exact_event": 6.696053158999233,
+      "throughput_original_events_per_second": 174502.36946467726,
+      "throughput_serialized_tokens_per_second": 266183.8430552684
+    },
+    {
+      "arm": "K",
+      "arm_name": "K_TRAIN_ONLY_LOSSLESS_BPE",
+      "checkpoint_sha256": "562809681986d08b62cfc0ea45b19dfd1fda004cff9b8c85c9df219413b354bf",
+      "evaluated_original_event_count": 244248,
+      "evaluated_serialized_target_count": 372573,
+      "evaluated_song_count": 1979,
+      "evaluation_phase": "evaluated_from_verified_cache_during_technical_continuation",
+      "nll_nats_per_serialized_token_diagnostic_only": 3.0344205898409795,
+      "peak_memory_bytes": 225755648,
+      "per_song_metrics_path": "per_song/K/seed_20260821.jsonl",
+      "per_song_metrics_sha256": "8291ef1a334b5c898b4c690f7f64c39083e188b28c7a81bce471d7962e3afe4b",
+      "per_song_reconstructed_test_bits_per_exact_event": 6.67775802785064,
+      "seed": 20260821,
+      "selected_validation_bits_per_exact_event": 6.568558582945499,
+      "serialized_tokens_per_original_event_diagnostic_only": 1.5253881300972782,
+      "test_bits_per_exact_event": 6.67775802785064,
+      "throughput_original_events_per_second": 155526.18840515794,
+      "throughput_serialized_tokens_per_second": 237237.80171250083
+    }
+  ],
+  "per_song_metrics_sha256": {
+    "per_song/J/seed_20260819.jsonl": "c9b4a4afd90238326eb63f01a6d0e078886f1422a28086533403b38f1b95dca2",
+    "per_song/J/seed_20260820.jsonl": "8d953b13d0ef04cb7034cfdaec9adff379dafe13eecd91493d86b3848ccf276d",
+    "per_song/J/seed_20260821.jsonl": "936ea043141b99af4c560c14b152bbb158dc4beb872b509322e9cda3fdd22adb",
+    "per_song/K/seed_20260819.jsonl": "d05e327bc2b55aa180853008e3ffed7e8eba770ca67fc0c587d930da8830bc3e",
+    "per_song/K/seed_20260820.jsonl": "4fe16472c1c10893e16c263558277a6ae38b066d731c6d1ace134e7220abf6d7",
+    "per_song/K/seed_20260821.jsonl": "8291ef1a334b5c898b4c690f7f64c39083e188b28c7a81bce471d7962e3afe4b"
+  },
+  "per_song_test_metrics_written": true,
+  "primary_metric": "micro_total_test_bits_per_exact_original_musical_event",
+  "protocol_sha256": "6d1100c95dddba94ebdb57ca0a27d3a98f8789e779be68ede557ab4e91a18186",
+  "runtime": {
+    "cuda_version": "12.8",
+    "device_capability": [
+      8,
+      9
+    ],
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "loaded_modules": [
+      "local_windows_no_module"
+    ],
+    "python_version": "3.12.13",
+    "slurm_job_id": "LOCAL-CLEAN-TEST-20260827",
+    "slurm_partition": "local_rtx4070ti",
+    "tokenizers_version": "0.22.1",
+    "torch_version": "2.11.0+cu128"
+  },
+  "schema_version": "m4l.pop1k7_jk_clean_test_results.v1",
+  "status": "ONE_SHOT_CLEAN_TEST_COMPLETE_AFTER_TECHNICAL_CONTINUATION",
+  "technical_continuation": {
+    "checkpoint_selection_changed": false,
+    "completed_before_continuation": [
+      "J:20260819"
+    ],
+    "continuation_tool_sha256": "beb2b86ee4753bb1fcc1cea6f330e1771aca0587dde8985e646f12e58e646b94",
+    "evaluated_during_continuation": [
+      "J:20260820",
+      "J:20260821",
+      "K:20260819",
+      "K:20260820",
+      "K:20260821"
+    ],
+    "evaluation_batch_songs_changed": false,
+    "reason": "original local process ended after the complete sealed test cache and J:20260819 per-song metrics were atomically written",
+    "reused_existing_verified_test_caches": true,
+    "source_midi_reopened": false,
+    "test_manifest_reopened": false,
+    "test_row_file_reopened": false,
+    "training_or_tuning_performed": false
+  },
+  "test_cache_audit": {
+    "J": {
+      "cache_manifest_sha256": "5dc9451662564527b812ded8df2ff371477b5518d236e63dc5e01a2c7b5f6d9d",
+      "maximum_payload_tokens": 1575,
+      "original_event_count": 244248,
+      "payload_token_count": 861259,
+      "sample_count": 1979,
+      "serialized_target_count_including_eos": 863238,
+      "serialized_tokens_per_original_event_excluding_eos": 3.52616602797157
+    },
+    "J_and_K_original_event_denominators_identical": true,
+    "K": {
+      "cache_manifest_sha256": "743cf5078716741ddd5bdc29cd0f9892cd9e23b957a5df278d816877b56c1127",
+      "maximum_payload_tokens": 674,
+      "original_event_count": 244248,
+      "payload_token_count": 370594,
+      "sample_count": 1979,
+      "serialized_target_count_including_eos": 372573,
+      "serialized_tokens_per_original_event_excluding_eos": 1.5172857096066292
+    },
+    "K_uses_frozen_train_only_bpe": true,
+    "shared_original": {
+      "original_event_count_including_eos": 244248,
+      "physical_note_or_rest_token_count": 242269,
+      "sample_count": 1979
+    },
+    "test_time_bpe_fit_updates": 0
+  },
+  "test_manifest_accessor_calls": 1,
+  "test_row_file_reads": 1,
+  "test_time_bpe_fit_updates": 0,
+  "validation_lock_sha256": "78e2eec4e7abdbd48e8410200ec7f8247b9b76a8c32bd54e7cc26cf59278bfa7"
+}

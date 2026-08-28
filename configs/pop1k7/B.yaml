@@ -1,0 +1,4 @@
+arm: B
+operation: coordinate_gain
+coordinate_schema: [generic_sequence_position, absolute_onset_bar_lookup, type, absolute_pitch, duration]
+side_information_schema: []

@@ -1,0 +1,9 @@
+{
+  "schema_version": "el.context_probe_manifest_status.v1",
+  "artifact_status": "frozen_checkpoint_and_audit_verified",
+  "held_out_window_manifest_status": "not_recovered_from_historical_run",
+  "held_out_song_count": 99,
+  "held_out_window_count": 6112,
+  "publication_policy": "release measured audit and checkpoint hash; do not claim bit-exact data rebuild until the missing manifest is recovered",
+  "scientific_scope": "secondary diagnostic only"
+}

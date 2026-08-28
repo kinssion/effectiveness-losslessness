@@ -1,0 +1,4 @@
+arm: F
+operation: coordinate_gain_reference
+coordinate_schema: [directed_multiscale_unary_time, deterministic_pairwise_temporal_bias, type, original_absolute_pitch, duration]
+side_information_schema: [matched_music21_high_confidence_subset]

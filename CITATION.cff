@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its released artifacts, please cite the associated paper."
+title: "How Far Should Tokenization Go? Predictive Effectiveness and Relational Losslessness"
+type: software
+version: "1.0.0-rc1"
+date-released: 2026-08-28
+authors:
+  - family-names: "Wang"
+    given-names: "Yi"
+    orcid: "https://orcid.org/0009-0004-6057-8151"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2608.18025"
+    description: "Associated arXiv paper"
+url: "https://arxiv.org/abs/2608.18025"
+repository-code: "https://github.com/kinssion/effectiveness-losslessness"
+license: Apache-2.0

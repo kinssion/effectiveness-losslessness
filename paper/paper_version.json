@@ -1,0 +1,20 @@
+{
+  "arxiv_doi": "10.48550/arXiv.2608.18025",
+  "arxiv_id": "2608.18025",
+  "arxiv_url": "https://arxiv.org/abs/2608.18025",
+  "authors": [
+    {
+      "name": "Yi Wang",
+      "orcid": "https://orcid.org/0009-0004-6057-8151"
+    }
+  ],
+  "content_baseline": "m4l_iclr2027_compact_v3",
+  "reference_pdf_bytes": 510562,
+  "reference_pdf_pages": 18,
+  "reference_pdf_sha256": "36f24d33404ccaeaf4a8be7363882b8e9204586c6a59c8cfb79d6d7c3fb706db",
+  "reference_pdf_vendored": false,
+  "repository_url": "https://github.com/kinssion/effectiveness-losslessness",
+  "schema_version": "el.paper_version.v1",
+  "status": "awaiting_arxiv_replacement",
+  "title": "How Far Should Tokenization Go? Predictive Effectiveness and Relational Losslessness"
+}

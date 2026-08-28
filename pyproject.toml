@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "el-tokenization"
+version = "1.0.0rc1"
+description = "Reproducibility package for predictive effectiveness and relational losslessness"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {text = "Apache-2.0 for code; see LICENSE and NOTICE for mixed-content terms"}
+authors = [{name = "Yi Wang"}]
+dependencies = [
+  "mido>=1.3,<2",
+  "numpy>=1.26,<3",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+paper = [
+  "music21==10.5.0",
+  "safetensors>=0.4,<1",
+  "tokenizers==0.22.1",
+  "torch>=2.1,<2.12",
+]
+dev = [
+  "mypy>=1.11,<2",
+  "pytest>=8,<9",
+  "ruff>=0.12,<1",
+]
+
+[project.scripts]
+el-token = "el_tokenization.cli:main"
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2608.18025"
+Repository = "https://github.com/kinssion/effectiveness-losslessness"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 96
+target-version = "py311"
+extend-exclude = ["src/el_tokenization/_paper_impl", "src/el_tokenization/_context_probe_impl"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_unused_ignores = true
+check_untyped_defs = true
+ignore_missing_imports = true
+exclude = "src/el_tokenization/_(paper|context_probe)_impl/"

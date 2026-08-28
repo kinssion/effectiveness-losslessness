@@ -1,0 +1,5 @@
+arm: J
+operation: serialized_carrier_reference
+coordinate_schema: [BAR_ADVANCE, exact_POSITION, PITCH_or_REST, DURATION_BAR, DURATION_REMAINDER]
+side_information_schema: []
+decoder_schema: [serialized_next_token, EOS, exact_inverse_to_NOTE_REST]

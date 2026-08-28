@@ -1,0 +1,53 @@
+{
+  "checkpoint_sha256": {
+    "J:20260819": "b3cd962eb33fc180e1ff456cf4aabc6748383f02308aafe1455dd62619d3e86c",
+    "J:20260820": "154c40cd34810b6e84f59b367ea6e0215dfc37526e306dc0238ba45686945bb8",
+    "J:20260821": "6a7e9639de3a5c971a5fc71fdd2f7360aca1910dcca144c28bb25a622e419c62",
+    "K:20260819": "5e37468a947566b7f5fa37418a852fe694c4d08dcf7a6ad19bcc904a0f1216df",
+    "K:20260820": "8e979ed40d2b305973552c73fc60bc69bc9f109d67ee48514149806949c3b8ee",
+    "K:20260821": "562809681986d08b62cfc0ea45b19dfd1fda004cff9b8c85c9df219413b354bf"
+  },
+  "checkpoint_updates": 0,
+  "continuation_tool_sha256": "beb2b86ee4753bb1fcc1cea6f330e1771aca0587dde8985e646f12e58e646b94",
+  "end_time_utc": "2026-08-27T11:30:23.073549+00:00",
+  "evaluator_sha256": "885f22c2c7dd6c79eb0e4a7c92370e4a93194cae4b0dc2cd2f67ab81353aebfc",
+  "per_song_metrics_sha256": {
+    "per_song/J/seed_20260819.jsonl": "c9b4a4afd90238326eb63f01a6d0e078886f1422a28086533403b38f1b95dca2",
+    "per_song/J/seed_20260820.jsonl": "8d953b13d0ef04cb7034cfdaec9adff379dafe13eecd91493d86b3848ccf276d",
+    "per_song/J/seed_20260821.jsonl": "936ea043141b99af4c560c14b152bbb158dc4beb872b509322e9cda3fdd22adb",
+    "per_song/K/seed_20260819.jsonl": "d05e327bc2b55aa180853008e3ffed7e8eba770ca67fc0c587d930da8830bc3e",
+    "per_song/K/seed_20260820.jsonl": "4fe16472c1c10893e16c263558277a6ae38b066d731c6d1ace134e7220abf6d7",
+    "per_song/K/seed_20260821.jsonl": "8291ef1a334b5c898b4c690f7f64c39083e188b28c7a81bce471d7962e3afe4b"
+  },
+  "protocol_sha256": "6d1100c95dddba94ebdb57ca0a27d3a98f8789e779be68ede557ab4e91a18186",
+  "result_content_sha256": "ca564cb2e19515ead48b51d14cd0003cf08f0f1dbcaf3a0ca9a21bfaa07929af",
+  "result_sha256": "41f627936e6d6b8fc643e91a45c3bd096cb6a8a8d0e92642e313f4ef5b0505bb",
+  "runtime": {
+    "cuda_version": "12.8",
+    "device_capability": [
+      8,
+      9
+    ],
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "loaded_modules": [
+      "local_windows_no_module"
+    ],
+    "python_version": "3.12.13",
+    "slurm_job_id": "LOCAL-CLEAN-TEST-20260827",
+    "slurm_partition": "local_rtx4070ti",
+    "tokenizers_version": "0.22.1",
+    "torch_version": "2.11.0+cu128"
+  },
+  "schema_version": "m4l.pop1k7_jk_clean_test_access.v1",
+  "scientific_retry_allowed": false,
+  "start_time_utc": "2026-08-27T10:29:07.719528+00:00",
+  "status": "ONE_SHOT_CLEAN_TEST_COMPLETE_AFTER_TECHNICAL_CONTINUATION",
+  "summary_sha256": "bad9d4e09b1d9715e9c77b42d8fd560e6b7badd2ce1d42f0a3d65b289852ce35",
+  "technical_continuation_used": true,
+  "test_cache_audit_sha256": "ffa674c12c6cf946074b85f9cbbdfc6fb4ebcc8c37edc8cc0f5059fd0a4bb24e",
+  "test_manifest_accessor_calls": 1,
+  "test_manifest_reopened": false,
+  "test_row_file_reads": 1,
+  "test_time_bpe_fit_updates": 0,
+  "validation_lock_sha256": "78e2eec4e7abdbd48e8410200ec7f8247b9b76a8c32bd54e7cc26cf59278bfa7"
+}

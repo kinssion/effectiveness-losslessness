@@ -1,0 +1,181 @@
+{
+  "all_seeds_D_better_than_A": true,
+  "arm_summary": {
+    "ARM_A_RAW_SEQUENCE": {
+      "mean_clean_test_bits_per_event": 11.855135259934166,
+      "per_seed": {
+        "20260814": 11.884871450293105,
+        "20260815": 11.705216244595881,
+        "20260816": 11.975318084913512
+      },
+      "sample_sd_clean_test_bits_per_event": 0.13748429655251548
+    },
+    "ARM_D_RELATIONAL_TIME_GEOMETRY": {
+      "mean_clean_test_bits_per_event": 11.748124446671378,
+      "per_seed": {
+        "20260814": 11.858432437549084,
+        "20260815": 11.547982797176013,
+        "20260816": 11.837958105289035
+      },
+      "sample_sd_clean_test_bits_per_event": 0.17362980581518125
+    }
+  },
+  "checkpoint_selection_changed_after_test": false,
+  "evaluated_at_utc": "2026-08-16T16:18:55.979216+00:00",
+  "manifest_sha256": "f4dc150e3a81f7224f07a69832d9c3e021ef11414beacb0dbb9f1ee4a39ecfdf",
+  "mean_D_minus_A_clean_test_bits_per_event": -0.10701081326278879,
+  "paired_D_minus_A": [
+    {
+      "D_minus_A_clean_test_bits_per_event": -0.02643901274402083,
+      "seed": 20260814
+    },
+    {
+      "D_minus_A_clean_test_bits_per_event": -0.157233447419868,
+      "seed": 20260815
+    },
+    {
+      "D_minus_A_clean_test_bits_per_event": -0.13735997962447755,
+      "seed": 20260816
+    }
+  ],
+  "protocol_sha256": "baf0c128598742450562e4900625870cab2e54d9dcd8816930bd58e541cc8564",
+  "runs": [
+    {
+      "arm": "ARM_A_RAW_SEQUENCE",
+      "checkpoint_sha256": "077c0bf66e60f203344241eb2dc6e90e7a998d462859c74f8a4e46f27962d46a",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.9438312277263665,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.058081726688492784,
+        "peak_memory_bytes": 134334976,
+        "pitch_nll_nats_per_note": 3.4854164725380805,
+        "predicted_eos_rate": 0.0,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 9859.620724541885,
+        "time_nll_nats_per_support_event": 1.99978885743318,
+        "total_bits_per_event": 11.884871450293105,
+        "type_nll_nats_per_event": 0.3175841746683538
+      },
+      "run_id": "commu4x4_a_raw_sequence_seed20260814",
+      "seed": 20260814,
+      "selected_validation_bits_per_event": 12.093839778231695
+    },
+    {
+      "arm": "ARM_A_RAW_SEQUENCE",
+      "checkpoint_sha256": "97dbcbe9c520f9b6294efadd0f0496869e362717660a84fd7ed065859a0369db",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.8380498373943284,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.053352734327634294,
+        "peak_memory_bytes": 134334976,
+        "pitch_nll_nats_per_note": 3.4750281350701298,
+        "predicted_eos_rate": 0.0,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 22227.012127051046,
+        "time_nll_nats_per_support_event": 1.9643290590249904,
+        "total_bits_per_event": 11.705216244595881,
+        "type_nll_nats_per_event": 0.33820005476192894
+      },
+      "run_id": "commu4x4_a_raw_sequence_seed20260815",
+      "seed": 20260815,
+      "selected_validation_bits_per_event": 11.92963082351736
+    },
+    {
+      "arm": "ARM_A_RAW_SEQUENCE",
+      "checkpoint_sha256": "43f8d86b96078d1c442a999503cb73fe033cd7f2bc0f2861f9d399d63f7d1adb",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.9030495143427206,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.05686916454468292,
+        "peak_memory_bytes": 134334976,
+        "pitch_nll_nats_per_note": 3.510970887447633,
+        "predicted_eos_rate": 0.0,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 22538.545670906766,
+        "time_nll_nats_per_support_event": 2.0581120073110726,
+        "total_bits_per_event": 11.975318084913512,
+        "type_nll_nats_per_event": 0.3401756117932794
+      },
+      "run_id": "commu4x4_a_raw_sequence_seed20260816",
+      "seed": 20260816,
+      "selected_validation_bits_per_event": 12.203431930534117
+    },
+    {
+      "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "6a7094011725e9ea9228ae0cbbe11a2e02642a12608270f1c81d35a3e9256ff7",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.9726071828365264,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.05686916454468292,
+        "peak_memory_bytes": 221125120,
+        "pitch_nll_nats_per_note": 3.512280848857865,
+        "predicted_eos_rate": 0.012004365223717716,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 19052.956083095258,
+        "time_nll_nats_per_support_event": 1.9664591222072392,
+        "total_bits_per_event": 11.858432437549084,
+        "type_nll_nats_per_event": 0.27919213993991376
+      },
+      "run_id": "commu4x4_d_relational_time_geometry_seed20260814",
+      "seed": 20260814,
+      "selected_validation_bits_per_event": 11.994554315508923
+    },
+    {
+      "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "e6d7d0b1a0baeb4cd0124f3cc71012cdac5a1ada90d958a9422db2cb49dd56b6",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.8115233197200786,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.05505032132896811,
+        "peak_memory_bytes": 221125120,
+        "pitch_nll_nats_per_note": 3.4957780189773455,
+        "predicted_eos_rate": 0.009094216078574026,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 21882.176390801364,
+        "time_nll_nats_per_support_event": 1.908448620906581,
+        "total_bits_per_event": 11.547982797176013,
+        "type_nll_nats_per_event": 0.28950570423819594
+      },
+      "run_id": "commu4x4_d_relational_time_geometry_seed20260815",
+      "seed": 20260815,
+      "selected_validation_bits_per_event": 11.738913017380842
+    },
+    {
+      "arm": "ARM_D_RELATIONAL_TIME_GEOMETRY",
+      "checkpoint_sha256": "b77ea9b42509438062b308dcd873c52faaacb2e2d637c23396488f0885460b51",
+      "clean_test_metrics": {
+        "duration_nll_nats_per_support_event": 2.8965865546188825,
+        "evaluated_event_count": 8247,
+        "evaluated_note_count": 7503,
+        "evaluated_song_count": 324,
+        "invalid_event_rate": 0.057596701830968836,
+        "peak_memory_bytes": 221125120,
+        "pitch_nll_nats_per_note": 3.5229064780490393,
+        "predicted_eos_rate": 0.004122711288953559,
+        "primary_metric_name": "micro_total_validation_bits_per_exact_musical_event",
+        "throughput_events_per_second": 21959.646937299418,
+        "time_nll_nats_per_support_event": 1.9913370177463858,
+        "total_bits_per_event": 11.837958105289035,
+        "type_nll_nats_per_event": 0.30446682756736637
+      },
+      "run_id": "commu4x4_d_relational_time_geometry_seed20260816",
+      "seed": 20260816,
+      "selected_validation_bits_per_event": 11.996979598793835
+    }
+  ],
+  "sample_sd_D_minus_A_clean_test_bits_per_event": 0.07048120288190822,
+  "schema_version": "m4l.commu_ad_replication.clean_test.v1",
+  "status": "COMPLETE",
+  "test_rows": 324,
+  "test_target_events": 8247
+}

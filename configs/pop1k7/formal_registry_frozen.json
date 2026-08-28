@@ -1,0 +1,34 @@
+{
+  "schema_version": "m4l.pop1k7_music21_formal_registry.v1",
+  "status": "FROZEN_BEFORE_FORMAL_VALIDATION",
+  "paper_update_authorized": false,
+  "primary_metric": "micro_total_validation_bits_per_exact_musical_event",
+  "preregistered_seeds": [20260819, 20260820, 20260821],
+  "protocols": {
+    "A_D": "configs/pop1k7_music21_formal_v1/abcd_protocol_v1.json",
+    "E_H_I": "configs/pop1k7_music21_formal_v1/ehi_protocol_v1.json",
+    "F_G": "configs/pop1k7_music21_formal_v1/fg_protocol_v1.json"
+  },
+  "arm_definitions": {
+    "A": "raw sequence position plus original absolute pitch",
+    "B": "A plus absolute musical onset",
+    "C": "unary musical time geometry plus original absolute pitch",
+    "D": "C plus pairwise relational time geometry",
+    "E": "D plus fixed chromatic-circle pitch projection",
+    "F": "D with original absolute pitch on the music21 high-confidence subset",
+    "G": "D with music21 tonal canonicalization on the exactly matched high-confidence subset",
+    "H": "D with learned absolute pitch-class/register bijective re-encoding",
+    "I": "D with fixed fifths-circle/register projection"
+  },
+  "data_firewall": {
+    "A_E_H_I": "full lineage-controlled Pop1K7 split; original absolute pitches; no key labels",
+    "F_G": "music21 consensus high-confidence subset; dataset key labels unused",
+    "test": "sealed and never loaded during training or selection"
+  },
+  "training": {
+    "maximum_target_equivalent_epochs": 2000,
+    "checkpoint_selection": "minimum validation bits per exact musical event",
+    "test_selection": false,
+    "formal_run_count": 27
+  }
+}

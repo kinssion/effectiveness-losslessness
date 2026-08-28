@@ -1,0 +1,9 @@
+{
+  "maximum_pitch_relation_error_semitones": 0,
+  "non_pitch_fields_bitwise_identical": true,
+  "note_count": 173525,
+  "pitch_relation": "canonical_pitch = original_pitch + corrected_whole_song_shift",
+  "sample_count": 1500,
+  "shifted_note_count": 148844,
+  "status": "PASS"
+}

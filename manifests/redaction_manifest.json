@@ -1,0 +1,36 @@
+{
+  "changed_file_count": 3,
+  "files": [
+    {
+      "file": "commu/frozen_split_v1/split_manifest.json",
+      "original_sha256": "f4dc150e3a81f7224f07a69832d9c3e021ef11414beacb0dbb9f1ee4a39ecfdf",
+      "redacted_json_pointer_count": 1,
+      "redacted_json_pointers": [
+        "/input/metadata_path"
+      ],
+      "review_copy_sha256": "ec7c93baad9a3363fd046c01f73ff3f338b4c44f6bdb4fac115e005d30b764c9"
+    },
+    {
+      "file": "pop1k7/frozen_high_confidence_windows_v1/split_manifest.json",
+      "original_sha256": "f7354d9246fb25355209bb385b3f45292ec9b8c8d120ffc2fc2f657c4078b897",
+      "redacted_json_pointer_count": 2,
+      "redacted_json_pointers": [
+        "/input/dataset_root",
+        "/input/key_table_path"
+      ],
+      "review_copy_sha256": "7cecbcf12998e6627eb1e47be9f1c9d245a1ddd1e883dde357d4d55a2a2b16bb"
+    },
+    {
+      "file": "pop1k7/frozen_split_v1/split_manifest.json",
+      "original_sha256": "628af0cc12d84d2db6e3cee6d78318aedbbb2b1b71e07527c7fc8a398e2fe65b",
+      "redacted_json_pointer_count": 2,
+      "redacted_json_pointers": [
+        "/input/dataset_root",
+        "/input/key_table_path"
+      ],
+      "review_copy_sha256": "a2f019989d6302499fc743be7049bcbb4765bf10d89d58a18e6cb76c15643371"
+    }
+  ],
+  "policy": "Only local paths, contact/login strings, and infrastructure identities are redacted; scientific numbers and hashes are retained.",
+  "schema_version": "el.review_redaction_manifest.v1"
+}

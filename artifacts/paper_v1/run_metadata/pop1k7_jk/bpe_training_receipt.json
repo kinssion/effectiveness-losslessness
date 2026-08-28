@@ -1,0 +1,16 @@
+{
+  "algorithm": "frequency_BPE",
+  "base_vocabulary_size": 1154,
+  "fit_sample_count": 18460,
+  "fit_split": "train",
+  "learned_merge_count": 894,
+  "minimum_frequency": 2,
+  "schema_version": "m4l.external_tokenizer_positioning.v1.bpe",
+  "song_boundary_crossing": false,
+  "status": "FROZEN_TRAIN_ONLY_LOSSLESS_BPE",
+  "target_vocabulary_size": 2048,
+  "test_used_for_merge_learning": false,
+  "tokenizer_sha256": "c0a7ce0a2bd7efecd56ebb5360e89a3c3f7b426673062d3db326569e169ad7e7",
+  "validation_used_for_merge_learning": false,
+  "vocabulary_size": 2048
+}

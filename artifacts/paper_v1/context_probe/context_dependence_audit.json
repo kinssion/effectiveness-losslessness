@@ -1,0 +1,55 @@
+{
+  "assertions": {
+    "both_context_shuffle_drop_at_least_5pp": true,
+    "both_context_shuffle_near_chance": true,
+    "left_context_contributes": true,
+    "normal_same_song_above_chance_95": true,
+    "right_context_contributes": true
+  },
+  "checkpoint": "train_r1_full_same_song_seed20260801/best_context_expert.pt",
+  "checkpoint_epoch": 6,
+  "dependence": {
+    "drop_when_both_shuffled": 0.2506544502617801,
+    "drop_when_left_shuffled": 0.1142015706806283,
+    "drop_when_right_shuffled": 0.12369109947643975
+  },
+  "examples": 6112,
+  "interpretation": "The same plausible donor context is applied to positive and negative targets; a drop therefore audits context dependence rather than target typicality.",
+  "metrics": {
+    "both_shuffled": {
+      "broad_accuracy": 0.5071989528795812,
+      "broad_mean_margin": 0.0547547765583268,
+      "combined_accuracy": 0.5086714659685864,
+      "combined_mean_margin": 0.05088170602215522,
+      "phrase_accuracy": 0.506053664921466,
+      "phrase_mean_margin": 0.04700865303970756
+    },
+    "left_shuffled": {
+      "broad_accuracy": 0.6434882198952879,
+      "broad_mean_margin": 0.7412476901608612,
+      "combined_accuracy": 0.6451243455497382,
+      "combined_mean_margin": 0.7262954050333712,
+      "phrase_accuracy": 0.6461060209424084,
+      "phrase_mean_margin": 0.7113431230265432
+    },
+    "normal": {
+      "broad_accuracy": 0.7591623036649214,
+      "broad_mean_margin": 1.4651750107710275,
+      "combined_accuracy": 0.7593259162303665,
+      "combined_mean_margin": 1.44971154747209,
+      "phrase_accuracy": 0.7576897905759162,
+      "phrase_mean_margin": 1.4342481153797728
+    },
+    "right_shuffled": {
+      "broad_accuracy": 0.631871727748691,
+      "broad_mean_margin": 0.7270276078378967,
+      "combined_accuracy": 0.6356348167539267,
+      "combined_mean_margin": 0.728618122520247,
+      "phrase_accuracy": 0.6354712041884817,
+      "phrase_mean_margin": 0.7302086553024372
+    }
+  },
+  "skipped_single_song_batches": 0,
+  "split": "test",
+  "verdict": "CONTEXT_DEPENDENCE_PASS"
+}

@@ -1,0 +1,12 @@
+Effectiveness and Losslessness in Music Tokenization
+Copyright 2026 Yi Wang
+
+Mixed-content notice:
+
+- Software code: Apache License 2.0.
+- Documentation, configs, stable manifests, results, and receipts: CC BY 4.0.
+- Raw Pop1K7 and ComMU data: not redistributed; upstream terms control.
+- Model checkpoints: not included; separate license review required.
+- Generated MIDI and private media: not included.
+
+Consult `THIRD_PARTY.md` and `DATA.md` before redistributing any derived payload.

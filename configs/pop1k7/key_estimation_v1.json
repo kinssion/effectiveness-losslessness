@@ -1,0 +1,30 @@
+{
+  "schema_version": "m4l.pop1k7_music21_key_estimation.v1",
+  "source": {
+    "estimation_variant": "data/pop1k7_official/Pop1K7/midi_synchronized",
+    "model_variant": "data/pop1k7_official/Pop1K7/midi_analyzed",
+    "pairing_key": "same_release_relative_path",
+    "dataset_labels_used": false
+  },
+  "analysis": {
+    "library": "music21",
+    "library_version": "10.5.0",
+    "primary": "key.krumhanslschmuckler",
+    "secondary": "key.aardenessen",
+    "scope": "full_song_all_pitched_notes",
+    "agreement_unit": "relative_major_frame_pitch_class",
+    "major_minor_relative_pair_is_equivalent": true
+  },
+  "confidence": {
+    "minimum_correlation": 0.6,
+    "minimum_distinct_frame_margin": 0.05,
+    "automatic_admission": "same_frame_and_both_algorithms_pass_thresholds",
+    "non_admitted_policy": "manual_review_or_exclude"
+  },
+  "canonicalization": {
+    "target_frame": "C_major_or_A_minor",
+    "target_relative_major_pitch_class": 0,
+    "signed_shift_support": [-5, 6],
+    "model_receives_key_tonic_mode_shift_or_confidence": false
+  }
+}

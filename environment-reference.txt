@@ -1,0 +1,23 @@
+Review package reference environments recorded by frozen receipts
+
+Supported public package:
+Python: 3.11 or 3.12
+NumPy: >=1.26,<3
+Mido: >=1.3,<2
+PyYAML: >=6,<7
+music21: 10.5.0
+tokenizers: 0.22.1
+
+Historical Pop1K7 J/K run receipt:
+Python: 3.10.20
+PyTorch: 2.1.2+cu121
+GPU: NVIDIA GeForce RTX 4090
+
+Historical ComMU run receipt:
+Python: 3.12.3
+PyTorch: 2.7.1+cu128
+GPU: NVIDIA GeForce RTX 4090
+
+Container reference:
+CUDA runtime: 12.1
+PyTorch: resolved by the uv lock and paper optional dependency

@@ -1,0 +1,4 @@
+arm: H
+operation: bijective_pitch_factorization
+coordinate_schema: [directed_multiscale_unary_time, deterministic_pairwise_temporal_bias, type, categorical_pitch_class, absolute_register, duration]
+side_information_schema: []

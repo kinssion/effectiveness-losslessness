@@ -1,0 +1,4 @@
+arm: D
+operation: coordinate_gain
+coordinate_schema: [directed_multiscale_unary_time, deterministic_pairwise_temporal_bias, type, absolute_pitch, duration]
+side_information_schema: []

@@ -1,0 +1,8 @@
+{
+  "fit_split": "train",
+  "learned_merge_count": 894,
+  "schema_version": "el.frozen_bpe_codebook.v1",
+  "source_tokenizer_sha256": "c0a7ce0a2bd7efecd56ebb5360e89a3c3f7b426673062d3db326569e169ad7e7",
+  "source_training_receipt": "../../run_metadata/pop1k7_jk/bpe_training_receipt.json",
+  "vocabulary_size": 2048
+}
